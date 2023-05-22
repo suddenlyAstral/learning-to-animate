@@ -1,0 +1,58 @@
+wandb_version: 1
+
+lr:
+  desc: null
+  value: 0.0001
+architecture:
+  desc: null
+  value: hierarchical CVAE
+latent_dim:
+  desc: null
+  value: 64
+dataset:
+  desc: null
+  value: twigl
+resolution:
+  desc: null
+  value: 256
+virtual_dataset_size:
+  desc: null
+  value: 128
+limit_shaders:
+  desc: null
+  value: 0
+epochs:
+  desc: null
+  value: 2
+seed:
+  desc: null
+  value: 0
+_wandb:
+  desc: null
+  value:
+    python_version: 3.7.1
+    cli_version: 0.15.0
+    framework: ignite
+    is_jupyter_run: false
+    is_kaggle_kernel: false
+    start_time: 1684771620.759325
+    t:
+      1:
+      - 1
+      - 10
+      - 41
+      - 55
+      2:
+      - 1
+      - 10
+      - 41
+      - 55
+      3:
+      - 2
+      - 16
+      - 23
+      4: 3.7.1
+      5: 0.15.0
+      8:
+      - 3
+      - 5

@@ -1,0 +1,33 @@
+2023-05-22 19:07:00,721 INFO    MainThread:16104 [wandb_setup.py:_flush():76] Configure stats pid to 16104
+2023-05-22 19:07:00,722 INFO    MainThread:16104 [wandb_setup.py:_flush():76] Loading settings from C:\Users\owner\.config\wandb\settings
+2023-05-22 19:07:00,722 INFO    MainThread:16104 [wandb_setup.py:_flush():76] Loading settings from C:\Users\owner\Desktop\python_workspace\shaders21k\cvae_training\wandb\settings
+2023-05-22 19:07:00,723 INFO    MainThread:16104 [wandb_setup.py:_flush():76] Loading settings from environment variables: {'api_key': '***REDACTED***'}
+2023-05-22 19:07:00,723 INFO    MainThread:16104 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2023-05-22 19:07:00,723 INFO    MainThread:16104 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'cvae_training\\main.py', 'program': 'C:\\Users\\owner\\Desktop\\python_workspace\\shaders21k\\cvae_training\\main.py'}
+2023-05-22 19:07:00,731 INFO    MainThread:16104 [wandb_init.py:_log_setup():507] Logging user logs to C:\Users\owner\Desktop\python_workspace\shaders21k\cvae_training\wandb\run-20230522_190700-j9ga9ggs\logs\debug.log
+2023-05-22 19:07:00,732 INFO    MainThread:16104 [wandb_init.py:_log_setup():508] Logging internal logs to C:\Users\owner\Desktop\python_workspace\shaders21k\cvae_training\wandb\run-20230522_190700-j9ga9ggs\logs\debug-internal.log
+2023-05-22 19:07:00,734 INFO    MainThread:16104 [wandb_init.py:init():547] calling init triggers
+2023-05-22 19:07:00,735 INFO    MainThread:16104 [wandb_init.py:init():555] wandb.init called with sweep_config: {}
+config: {'lr': 0.0001, 'architecture': 'hierarchical CVAE', 'latent_dim': 64, 'dataset': 'twigl', 'resolution': 256, 'virtual_dataset_size': 128, 'limit_shaders': 0, 'epochs': 2, 'seed': 0}
+2023-05-22 19:07:00,736 INFO    MainThread:16104 [wandb_init.py:init():595] starting backend
+2023-05-22 19:07:00,736 INFO    MainThread:16104 [wandb_init.py:init():599] setting up manager
+2023-05-22 19:07:00,746 INFO    MainThread:16104 [backend.py:_multiprocessing_setup():108] multiprocessing start_methods=spawn, using: spawn
+2023-05-22 19:07:00,759 INFO    MainThread:16104 [wandb_init.py:init():605] backend started and connected
+2023-05-22 19:07:00,770 INFO    MainThread:16104 [wandb_init.py:init():695] updated telemetry
+2023-05-22 19:07:00,829 INFO    MainThread:16104 [wandb_init.py:init():732] communicating run to backend with 60.0 second timeout
+2023-05-22 19:07:02,120 INFO    MainThread:16104 [wandb_run.py:_on_init():2176] communicating current version
+2023-05-22 19:07:03,017 INFO    MainThread:16104 [wandb_run.py:_on_init():2185] got version response upgrade_message: "wandb version 0.15.3 is available!  To upgrade, please run:\n $ pip install wandb --upgrade"
+
+2023-05-22 19:07:03,017 INFO    MainThread:16104 [wandb_init.py:init():782] starting run threads in backend
+2023-05-22 19:07:03,237 INFO    MainThread:16104 [wandb_run.py:_console_start():2157] atexit reg
+2023-05-22 19:07:03,238 INFO    MainThread:16104 [wandb_run.py:_redirect():2012] redirect: SettingsConsole.WRAP_RAW
+2023-05-22 19:07:03,238 INFO    MainThread:16104 [wandb_run.py:_redirect():2077] Wrapping output streams.
+2023-05-22 19:07:03,238 INFO    MainThread:16104 [wandb_run.py:_redirect():2102] Redirects installed.
+2023-05-22 19:07:03,239 INFO    MainThread:16104 [wandb_init.py:init():824] run started, returning control to user process
+2023-05-22 19:13:30,808 INFO    MainThread:16104 [wandb_run.py:_finish():1892] finishing run suddenlyastral/shaders/j9ga9ggs
+2023-05-22 19:13:30,808 INFO    MainThread:16104 [wandb_run.py:_atexit_cleanup():2126] got exitcode: 0
+2023-05-22 19:13:30,809 INFO    MainThread:16104 [wandb_run.py:_restore():2109] restore
+2023-05-22 19:13:30,824 INFO    MainThread:16104 [wandb_run.py:_restore():2115] restore done
+2023-05-22 19:14:26,541 INFO    MainThread:16104 [wandb_run.py:_footer_history_summary_info():3476] rendering history
+2023-05-22 19:14:26,543 INFO    MainThread:16104 [wandb_run.py:_footer_history_summary_info():3508] rendering summary
+2023-05-22 19:14:26,561 INFO    MainThread:16104 [wandb_run.py:_footer_sync_info():3434] logging synced files

@@ -1,0 +1,55 @@
+{
+    "os": "Windows-10-10.0.19041-SP0",
+    "python": "3.7.1",
+    "heartbeatAt": "2023-05-22T16:07:03.080306",
+    "startedAt": "2023-05-22T16:07:00.708474",
+    "docker": null,
+    "cuda": null,
+    "args": [
+        "--twigl",
+        "--lr",
+        "0.0001",
+        "--epoch_length",
+        "128",
+        "--batch_size",
+        "64",
+        "--latent_dim",
+        "64",
+        "--epochs",
+        "2",
+        "--del_prev_runs"
+    ],
+    "state": "running",
+    "program": "C:\\Users\\owner\\Desktop\\python_workspace\\shaders21k\\cvae_training\\main.py",
+    "codePath": "cvae_training\\main.py",
+    "git": {
+        "remote": "https://github.com/suddenlyAstral/shaders_internal.git",
+        "commit": "bdad57bdbee6b9651fd28775d71c26d8b5ed98cb"
+    },
+    "email": "yonatanw55@gmail.com",
+    "root": "C:/Users/owner/Desktop/python_workspace/shaders21k",
+    "host": "owner-PC",
+    "username": "owner",
+    "executable": "C:\\Users\\owner\\Desktop\\python_workspace\\shaders21k\\venv\\Scripts\\python.exe",
+    "cpu_count": 4,
+    "cpu_count_logical": 4,
+    "cpu_freq": {
+        "current": 2000.0,
+        "min": 0.0,
+        "max": 3301.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 2000.0,
+            "min": 0.0,
+            "max": 3301.0
+        }
+    ],
+    "disk": {
+        "total": 111.19123840332031,
+        "used": 99.04960632324219
+    },
+    "memory": {
+        "total": 11.936019897460938
+    }
+}
