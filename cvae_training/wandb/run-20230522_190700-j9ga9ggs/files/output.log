@@ -1,0 +1,34 @@
+1089 shaders found. splits:
+762 train. ['C:\\Users\\owner\\Desktop\\shader_codes\\shader_codes\\twigl\\codes\\7f0ca7d94f021bc90d03715e353ffa21.fragment', 'C:\\Users\\owner\\Desktop\\shader_codes\\shader_codes\\twigl\\codes\\737919c4bbd787c65525d2c80e77be19.fragment', 'C:\\Users\\owner\\Desktop\\shader_codes\\shader_codes\\twigl\\codes\\9f26cfc1d5e994dd99cabde1f619315c.fragment', 'C:\\Users\\owner\\Desktop\\shader_codes\\shader_codes\\twigl\\codes\\52d151225f56f0480e740c6b8b994b9c.fragment', 'C:\\Users\\owner\\Desktop\\shader_codes\\shader_codes\\twigl\\codes\\77dafa2a974271793b4800430cae3752.fragment']...
+109 val. ['C:\\Users\\owner\\Desktop\\shader_codes\\shader_codes\\twigl\\codes\\623305bb7ec8cdbd61608693522391ea.fragment', 'C:\\Users\\owner\\Desktop\\shader_codes\\shader_codes\\twigl\\codes\\a0a94f31b43f9aea7a0c8687ddf61783.fragment', 'C:\\Users\\owner\\Desktop\\shader_codes\\shader_codes\\twigl\\codes\\b61e04457c7fb79585ef89412945cf0b.fragment', 'C:\\Users\\owner\\Desktop\\shader_codes\\shader_codes\\twigl\\codes\\0628c88b0a6f24cacd110a33e455798b.fragment', 'C:\\Users\\owner\\Desktop\\shader_codes\\shader_codes\\twigl\\codes\\e9a75a192d900d70634769b40737ca1b.fragment']...
+218 test. ['C:\\Users\\owner\\Desktop\\shader_codes\\shader_codes\\twigl\\codes\\9fb6fcc7538f9bc01c16399fedfd4fa5.fragment', 'C:\\Users\\owner\\Desktop\\shader_codes\\shader_codes\\twigl\\codes\\b92cc19b092b70cdc6a7519087306cb8.fragment', 'C:\\Users\\owner\\Desktop\\shader_codes\\shader_codes\\twigl\\codes\\0fa6cc05af670a67a329169b76ce9640.fragment', 'C:\\Users\\owner\\Desktop\\shader_codes\\shader_codes\\twigl\\codes\\b2d6e9db396d9fc0ae46b745dec93b34.fragment', 'C:\\Users\\owner\\Desktop\\shader_codes\\shader_codes\\twigl\\codes\\322748d61b0b1cea14f82d393b787102.fragment']...
+Reading shaders
+100%|██████████| 762/762 [00:00<00:00, 1163.16it/s]
+1089 shaders found. splits:
+762 train. ['C:\\Users\\owner\\Desktop\\shader_codes\\shader_codes\\twigl\\codes\\7f0ca7d94f021bc90d03715e353ffa21.fragment', 'C:\\Users\\owner\\Desktop\\shader_codes\\shader_codes\\twigl\\codes\\737919c4bbd787c65525d2c80e77be19.fragment', 'C:\\Users\\owner\\Desktop\\shader_codes\\shader_codes\\twigl\\codes\\9f26cfc1d5e994dd99cabde1f619315c.fragment', 'C:\\Users\\owner\\Desktop\\shader_codes\\shader_codes\\twigl\\codes\\52d151225f56f0480e740c6b8b994b9c.fragment', 'C:\\Users\\owner\\Desktop\\shader_codes\\shader_codes\\twigl\\codes\\77dafa2a974271793b4800430cae3752.fragment']...
+109 val. ['C:\\Users\\owner\\Desktop\\shader_codes\\shader_codes\\twigl\\codes\\623305bb7ec8cdbd61608693522391ea.fragment', 'C:\\Users\\owner\\Desktop\\shader_codes\\shader_codes\\twigl\\codes\\a0a94f31b43f9aea7a0c8687ddf61783.fragment', 'C:\\Users\\owner\\Desktop\\shader_codes\\shader_codes\\twigl\\codes\\b61e04457c7fb79585ef89412945cf0b.fragment', 'C:\\Users\\owner\\Desktop\\shader_codes\\shader_codes\\twigl\\codes\\0628c88b0a6f24cacd110a33e455798b.fragment', 'C:\\Users\\owner\\Desktop\\shader_codes\\shader_codes\\twigl\\codes\\e9a75a192d900d70634769b40737ca1b.fragment']...
+218 test. ['C:\\Users\\owner\\Desktop\\shader_codes\\shader_codes\\twigl\\codes\\9fb6fcc7538f9bc01c16399fedfd4fa5.fragment', 'C:\\Users\\owner\\Desktop\\shader_codes\\shader_codes\\twigl\\codes\\b92cc19b092b70cdc6a7519087306cb8.fragment', 'C:\\Users\\owner\\Desktop\\shader_codes\\shader_codes\\twigl\\codes\\0fa6cc05af670a67a329169b76ce9640.fragment', 'C:\\Users\\owner\\Desktop\\shader_codes\\shader_codes\\twigl\\codes\\b2d6e9db396d9fc0ae46b745dec93b34.fragment', 'C:\\Users\\owner\\Desktop\\shader_codes\\shader_codes\\twigl\\codes\\322748d61b0b1cea14f82d393b787102.fragment']...
+Reading shaders
+100%|██████████| 109/109 [00:00<00:00, 1198.19it/s]
+1 first iteration started
+1 iterations completed
+2 iterations completed
+Training Results - Epoch[1],  Results: {'loss': 0.7133706510066986, 'elbo': 0.7133706510066986, 'triplets': 0.0, 'fid': 0.2862626268259662}
+1 iterations completed val
+2 iterations completed val
+Validation Results - Epoch[1], Results: {'val loss': 0.699360191822052, 'val elbo': 0.699360191822052, 'val triplets': 0.0, 'val fid': 0.3163872342012595}
+3 iterations completed
+4 iterations completed
+Training Results - Epoch[2],  Results: {'loss': 0.6993479430675507, 'elbo': 0.6993479430675507, 'triplets': 0.0, 'fid': 0.32174134985071196}
+1 iterations completed val
+2 iterations completed val
+Validation Results - Epoch[2], Results: {'val loss': 0.6879832446575165, 'val elbo': 0.6879832446575165, 'val triplets': 0.0, 'val fid': 0.31694856250835873}
+training complete successfully!
+starting testing
+1089 shaders found. splits:
+762 train. ['C:\\Users\\owner\\Desktop\\shader_codes\\shader_codes\\twigl\\codes\\7f0ca7d94f021bc90d03715e353ffa21.fragment', 'C:\\Users\\owner\\Desktop\\shader_codes\\shader_codes\\twigl\\codes\\737919c4bbd787c65525d2c80e77be19.fragment', 'C:\\Users\\owner\\Desktop\\shader_codes\\shader_codes\\twigl\\codes\\9f26cfc1d5e994dd99cabde1f619315c.fragment', 'C:\\Users\\owner\\Desktop\\shader_codes\\shader_codes\\twigl\\codes\\52d151225f56f0480e740c6b8b994b9c.fragment', 'C:\\Users\\owner\\Desktop\\shader_codes\\shader_codes\\twigl\\codes\\77dafa2a974271793b4800430cae3752.fragment']...
+109 val. ['C:\\Users\\owner\\Desktop\\shader_codes\\shader_codes\\twigl\\codes\\623305bb7ec8cdbd61608693522391ea.fragment', 'C:\\Users\\owner\\Desktop\\shader_codes\\shader_codes\\twigl\\codes\\a0a94f31b43f9aea7a0c8687ddf61783.fragment', 'C:\\Users\\owner\\Desktop\\shader_codes\\shader_codes\\twigl\\codes\\b61e04457c7fb79585ef89412945cf0b.fragment', 'C:\\Users\\owner\\Desktop\\shader_codes\\shader_codes\\twigl\\codes\\0628c88b0a6f24cacd110a33e455798b.fragment', 'C:\\Users\\owner\\Desktop\\shader_codes\\shader_codes\\twigl\\codes\\e9a75a192d900d70634769b40737ca1b.fragment']...
+218 test. ['C:\\Users\\owner\\Desktop\\shader_codes\\shader_codes\\twigl\\codes\\9fb6fcc7538f9bc01c16399fedfd4fa5.fragment', 'C:\\Users\\owner\\Desktop\\shader_codes\\shader_codes\\twigl\\codes\\b92cc19b092b70cdc6a7519087306cb8.fragment', 'C:\\Users\\owner\\Desktop\\shader_codes\\shader_codes\\twigl\\codes\\0fa6cc05af670a67a329169b76ce9640.fragment', 'C:\\Users\\owner\\Desktop\\shader_codes\\shader_codes\\twigl\\codes\\b2d6e9db396d9fc0ae46b745dec93b34.fragment', 'C:\\Users\\owner\\Desktop\\shader_codes\\shader_codes\\twigl\\codes\\322748d61b0b1cea14f82d393b787102.fragment']...
+Reading shaders
+100%|██████████| 218/218 [00:00<00:00, 969.81it/s]
+tearing down

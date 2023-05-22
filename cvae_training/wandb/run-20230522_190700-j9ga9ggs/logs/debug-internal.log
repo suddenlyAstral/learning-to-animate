@@ -1,0 +1,879 @@
+2023-05-22 19:07:00,754 INFO    StreamThr :6256 [internal.py:wandb_internal():89] W&B internal server running at pid: 6256, started at: 2023-05-22 19:07:00.753331
+2023-05-22 19:07:00,767 DEBUG   HandlerThread:6256 [handler.py:handle_request():144] handle_request: status
+2023-05-22 19:07:00,771 INFO    WriterThread:6256 [datastore.py:open_for_write():85] open: C:\Users\owner\Desktop\python_workspace\shaders21k\cvae_training\wandb\run-20230522_190700-j9ga9ggs\run-j9ga9ggs.wandb
+2023-05-22 19:07:00,774 DEBUG   SenderThread:6256 [sender.py:send():375] send: header
+2023-05-22 19:07:00,829 DEBUG   SenderThread:6256 [sender.py:send():375] send: run
+2023-05-22 19:07:02,119 INFO    SenderThread:6256 [dir_watcher.py:__init__():219] watching files in: C:\Users\owner\Desktop\python_workspace\shaders21k\cvae_training\wandb\run-20230522_190700-j9ga9ggs\files
+2023-05-22 19:07:02,119 INFO    SenderThread:6256 [sender.py:_start_run_threads():1127] run started: j9ga9ggs with start time 1684771620.759325
+2023-05-22 19:07:02,119 DEBUG   SenderThread:6256 [sender.py:send_request():402] send_request: summary_record
+2023-05-22 19:07:02,120 INFO    SenderThread:6256 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-22 19:07:02,121 DEBUG   HandlerThread:6256 [handler.py:handle_request():144] handle_request: check_version
+2023-05-22 19:07:02,121 DEBUG   SenderThread:6256 [sender.py:send_request():402] send_request: check_version
+2023-05-22 19:07:03,048 DEBUG   HandlerThread:6256 [handler.py:handle_request():144] handle_request: run_start
+2023-05-22 19:07:03,064 DEBUG   HandlerThread:6256 [system_info.py:__init__():31] System info init
+2023-05-22 19:07:03,064 DEBUG   HandlerThread:6256 [system_info.py:__init__():46] System info init done
+2023-05-22 19:07:03,065 INFO    HandlerThread:6256 [system_monitor.py:start():181] Starting system monitor
+2023-05-22 19:07:03,069 INFO    SystemMonitor:6256 [system_monitor.py:_start():145] Starting system asset monitoring threads
+2023-05-22 19:07:03,069 INFO    HandlerThread:6256 [system_monitor.py:probe():201] Collecting system info
+2023-05-22 19:07:03,076 INFO    SystemMonitor:6256 [interfaces.py:start():190] Started cpu monitoring
+2023-05-22 19:07:03,080 DEBUG   HandlerThread:6256 [system_info.py:probe():195] Probing system
+2023-05-22 19:07:03,080 INFO    SystemMonitor:6256 [interfaces.py:start():190] Started disk monitoring
+2023-05-22 19:07:03,087 INFO    SystemMonitor:6256 [interfaces.py:start():190] Started memory monitoring
+2023-05-22 19:07:03,097 INFO    SystemMonitor:6256 [interfaces.py:start():190] Started network monitoring
+2023-05-22 19:07:03,098 DEBUG   HandlerThread:6256 [system_info.py:_probe_git():180] Probing git
+2023-05-22 19:07:03,122 INFO    Thread-16 :6256 [dir_watcher.py:_on_file_created():278] file/dir created: C:\Users\owner\Desktop\python_workspace\shaders21k\cvae_training\wandb\run-20230522_190700-j9ga9ggs\files\wandb-summary.json
+2023-05-22 19:07:03,219 DEBUG   HandlerThread:6256 [system_info.py:_probe_git():188] Probing git done
+2023-05-22 19:07:03,220 DEBUG   HandlerThread:6256 [system_info.py:probe():240] Probing system done
+2023-05-22 19:07:03,220 DEBUG   HandlerThread:6256 [system_monitor.py:probe():210] {'os': 'Windows-10-10.0.19041-SP0', 'python': '3.7.1', 'heartbeatAt': '2023-05-22T16:07:03.080306', 'startedAt': '2023-05-22T16:07:00.708474', 'docker': None, 'cuda': None, 'args': ('--twigl', '--lr', '0.0001', '--epoch_length', '128', '--batch_size', '64', '--latent_dim', '64', '--epochs', '2', '--del_prev_runs'), 'state': 'running', 'program': 'C:\\Users\\owner\\Desktop\\python_workspace\\shaders21k\\cvae_training\\main.py', 'codePath': 'cvae_training\\main.py', 'git': {'remote': 'https://github.com/suddenlyAstral/shaders_internal.git', 'commit': 'bdad57bdbee6b9651fd28775d71c26d8b5ed98cb'}, 'email': 'yonatanw55@gmail.com', 'root': 'C:/Users/owner/Desktop/python_workspace/shaders21k', 'host': 'owner-PC', 'username': 'owner', 'executable': 'C:\\Users\\owner\\Desktop\\python_workspace\\shaders21k\\venv\\Scripts\\python.exe', 'cpu_count': 4, 'cpu_count_logical': 4, 'cpu_freq': {'current': 2000.0, 'min': 0.0, 'max': 3301.0}, 'cpu_freq_per_core': [{'current': 2000.0, 'min': 0.0, 'max': 3301.0}], 'disk': {'total': 111.19123840332031, 'used': 99.04960632324219}, 'memory': {'total': 11.936019897460938}}
+2023-05-22 19:07:03,220 INFO    HandlerThread:6256 [system_monitor.py:probe():211] Finished collecting system info
+2023-05-22 19:07:03,220 INFO    HandlerThread:6256 [system_monitor.py:probe():214] Publishing system info
+2023-05-22 19:07:03,220 DEBUG   HandlerThread:6256 [system_info.py:_save_pip():52] Saving list of pip packages installed into the current environment
+2023-05-22 19:07:03,221 DEBUG   HandlerThread:6256 [system_info.py:_save_pip():67] Saving pip packages done
+2023-05-22 19:07:03,223 INFO    HandlerThread:6256 [system_monitor.py:probe():216] Finished publishing system info
+2023-05-22 19:07:03,229 DEBUG   SenderThread:6256 [sender.py:send():375] send: files
+2023-05-22 19:07:03,229 INFO    SenderThread:6256 [sender.py:_save_file():1378] saving file wandb-metadata.json with policy now
+2023-05-22 19:07:03,237 DEBUG   HandlerThread:6256 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-22 19:07:03,238 DEBUG   SenderThread:6256 [sender.py:send_request():402] send_request: stop_status
+2023-05-22 19:07:03,500 DEBUG   SenderThread:6256 [sender.py:send():375] send: telemetry
+2023-05-22 19:07:04,123 INFO    Thread-16 :6256 [dir_watcher.py:_on_file_created():278] file/dir created: C:\Users\owner\Desktop\python_workspace\shaders21k\cvae_training\wandb\run-20230522_190700-j9ga9ggs\files\wandb-metadata.json
+2023-05-22 19:07:04,124 INFO    Thread-16 :6256 [dir_watcher.py:_on_file_created():278] file/dir created: C:\Users\owner\Desktop\python_workspace\shaders21k\cvae_training\wandb\run-20230522_190700-j9ga9ggs\files\output.log
+2023-05-22 19:07:04,124 INFO    Thread-16 :6256 [dir_watcher.py:_on_file_created():278] file/dir created: C:\Users\owner\Desktop\python_workspace\shaders21k\cvae_training\wandb\run-20230522_190700-j9ga9ggs\files\requirements.txt
+2023-05-22 19:07:04,926 INFO    wandb-upload_0:6256 [upload_job.py:push():137] Uploaded file C:\Users\owner\AppData\Local\Temp\tmp9oyadmwuwandb\uglkndqw-wandb-metadata.json
+2023-05-22 19:07:05,927 DEBUG   HandlerThread:6256 [handler.py:handle_request():144] handle_request: status_report
+2023-05-22 19:07:06,137 INFO    Thread-16 :6256 [dir_watcher.py:_on_file_modified():295] file/dir modified: C:\Users\owner\Desktop\python_workspace\shaders21k\cvae_training\wandb\run-20230522_190700-j9ga9ggs\files\output.log
+2023-05-22 19:07:10,171 INFO    Thread-16 :6256 [dir_watcher.py:_on_file_modified():295] file/dir modified: C:\Users\owner\Desktop\python_workspace\shaders21k\cvae_training\wandb\run-20230522_190700-j9ga9ggs\files\output.log
+2023-05-22 19:07:11,761 DEBUG   HandlerThread:6256 [handler.py:handle_request():144] handle_request: status_report
+2023-05-22 19:07:14,302 INFO    Thread-16 :6256 [dir_watcher.py:_on_file_modified():295] file/dir modified: C:\Users\owner\Desktop\python_workspace\shaders21k\cvae_training\wandb\run-20230522_190700-j9ga9ggs\files\output.log
+2023-05-22 19:07:16,835 DEBUG   HandlerThread:6256 [handler.py:handle_request():144] handle_request: status_report
+2023-05-22 19:07:18,251 DEBUG   HandlerThread:6256 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-22 19:07:18,252 DEBUG   SenderThread:6256 [sender.py:send_request():402] send_request: stop_status
+2023-05-22 19:07:22,505 DEBUG   HandlerThread:6256 [handler.py:handle_request():144] handle_request: status_report
+2023-05-22 19:07:27,570 DEBUG   HandlerThread:6256 [handler.py:handle_request():144] handle_request: status_report
+2023-05-22 19:07:32,655 DEBUG   HandlerThread:6256 [handler.py:handle_request():144] handle_request: status_report
+2023-05-22 19:07:33,281 DEBUG   HandlerThread:6256 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-22 19:07:33,281 DEBUG   SenderThread:6256 [sender.py:send_request():402] send_request: stop_status
+2023-05-22 19:07:33,690 INFO    Thread-16 :6256 [dir_watcher.py:_on_file_modified():295] file/dir modified: C:\Users\owner\Desktop\python_workspace\shaders21k\cvae_training\wandb\run-20230522_190700-j9ga9ggs\files\config.yaml
+2023-05-22 19:07:38,593 DEBUG   HandlerThread:6256 [handler.py:handle_request():144] handle_request: status_report
+2023-05-22 19:07:41,843 INFO    Thread-16 :6256 [dir_watcher.py:_on_file_modified():295] file/dir modified: C:\Users\owner\Desktop\python_workspace\shaders21k\cvae_training\wandb\run-20230522_190700-j9ga9ggs\files\output.log
+2023-05-22 19:07:44,047 DEBUG   HandlerThread:6256 [handler.py:handle_request():144] handle_request: status_report
+2023-05-22 19:07:48,305 DEBUG   HandlerThread:6256 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-22 19:07:48,306 DEBUG   SenderThread:6256 [sender.py:send_request():402] send_request: stop_status
+2023-05-22 19:07:49,507 DEBUG   HandlerThread:6256 [handler.py:handle_request():144] handle_request: status_report
+2023-05-22 19:07:54,557 DEBUG   HandlerThread:6256 [handler.py:handle_request():144] handle_request: status_report
+2023-05-22 19:07:59,622 DEBUG   HandlerThread:6256 [handler.py:handle_request():144] handle_request: status_report
+2023-05-22 19:08:03,110 DEBUG   SystemMonitor:6256 [system_monitor.py:_start():159] Starting system metrics aggregation loop
+2023-05-22 19:08:03,111 DEBUG   SenderThread:6256 [sender.py:send():375] send: stats
+2023-05-22 19:08:03,322 DEBUG   HandlerThread:6256 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-22 19:08:03,322 DEBUG   SenderThread:6256 [sender.py:send_request():402] send_request: stop_status
+2023-05-22 19:08:05,539 DEBUG   HandlerThread:6256 [handler.py:handle_request():144] handle_request: status_report
+2023-05-22 19:08:10,383 INFO    Thread-16 :6256 [dir_watcher.py:_on_file_modified():295] file/dir modified: C:\Users\owner\Desktop\python_workspace\shaders21k\cvae_training\wandb\run-20230522_190700-j9ga9ggs\files\output.log
+2023-05-22 19:08:11,366 DEBUG   HandlerThread:6256 [handler.py:handle_request():144] handle_request: status_report
+2023-05-22 19:08:16,434 DEBUG   HandlerThread:6256 [handler.py:handle_request():144] handle_request: status_report
+2023-05-22 19:08:18,357 DEBUG   HandlerThread:6256 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-22 19:08:18,357 DEBUG   SenderThread:6256 [sender.py:send_request():402] send_request: stop_status
+2023-05-22 19:08:21,610 DEBUG   HandlerThread:6256 [handler.py:handle_request():144] handle_request: status_report
+2023-05-22 19:08:26,736 DEBUG   HandlerThread:6256 [handler.py:handle_request():144] handle_request: status_report
+2023-05-22 19:08:28,664 INFO    Thread-16 :6256 [dir_watcher.py:_on_file_modified():295] file/dir modified: C:\Users\owner\Desktop\python_workspace\shaders21k\cvae_training\wandb\run-20230522_190700-j9ga9ggs\files\output.log
+2023-05-22 19:08:31,801 DEBUG   HandlerThread:6256 [handler.py:handle_request():144] handle_request: status_report
+2023-05-22 19:08:33,124 DEBUG   SenderThread:6256 [sender.py:send():375] send: stats
+2023-05-22 19:08:33,367 DEBUG   HandlerThread:6256 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-22 19:08:33,368 DEBUG   SenderThread:6256 [sender.py:send_request():402] send_request: stop_status
+2023-05-22 19:08:37,566 DEBUG   HandlerThread:6256 [handler.py:handle_request():144] handle_request: status_report
+2023-05-22 19:08:42,645 DEBUG   HandlerThread:6256 [handler.py:handle_request():144] handle_request: status_report
+2023-05-22 19:08:44,872 INFO    Thread-16 :6256 [dir_watcher.py:_on_file_modified():295] file/dir modified: C:\Users\owner\Desktop\python_workspace\shaders21k\cvae_training\wandb\run-20230522_190700-j9ga9ggs\files\output.log
+2023-05-22 19:08:44,872 INFO    Thread-16 :6256 [dir_watcher.py:_on_file_created():278] file/dir created: C:\Users\owner\Desktop\python_workspace\shaders21k\cvae_training\wandb\run-20230522_190700-j9ga9ggs\files\checkpoint_val_loss=-0.6994.pt
+2023-05-22 19:08:46,879 INFO    Thread-16 :6256 [dir_watcher.py:_on_file_modified():295] file/dir modified: C:\Users\owner\Desktop\python_workspace\shaders21k\cvae_training\wandb\run-20230522_190700-j9ga9ggs\files\output.log
+2023-05-22 19:08:48,344 DEBUG   HandlerThread:6256 [handler.py:handle_request():144] handle_request: status_report
+2023-05-22 19:08:48,375 DEBUG   HandlerThread:6256 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-22 19:08:48,375 DEBUG   SenderThread:6256 [sender.py:send_request():402] send_request: stop_status
+2023-05-22 19:08:53,601 DEBUG   HandlerThread:6256 [handler.py:handle_request():144] handle_request: status_report
+2023-05-22 19:08:58,628 DEBUG   HandlerThread:6256 [handler.py:handle_request():144] handle_request: status_report
+2023-05-22 19:09:03,136 DEBUG   SenderThread:6256 [sender.py:send():375] send: stats
+2023-05-22 19:09:03,391 DEBUG   HandlerThread:6256 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-22 19:09:03,392 DEBUG   SenderThread:6256 [sender.py:send_request():402] send_request: stop_status
+2023-05-22 19:09:04,587 DEBUG   HandlerThread:6256 [handler.py:handle_request():144] handle_request: status_report
+2023-05-22 19:09:09,631 DEBUG   HandlerThread:6256 [handler.py:handle_request():144] handle_request: status_report
+2023-05-22 19:09:14,664 DEBUG   HandlerThread:6256 [handler.py:handle_request():144] handle_request: status_report
+2023-05-22 19:09:18,412 DEBUG   HandlerThread:6256 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-22 19:09:18,413 DEBUG   SenderThread:6256 [sender.py:send_request():402] send_request: stop_status
+2023-05-22 19:09:19,728 DEBUG   SenderThread:6256 [sender.py:send():375] send: files
+2023-05-22 19:09:19,728 INFO    SenderThread:6256 [sender.py:_save_file():1378] saving file media\images\examples_gt_0_7de8efa70c3ef0d8448e.png with policy now
+2023-05-22 19:09:19,729 DEBUG   HandlerThread:6256 [handler.py:handle_request():144] handle_request: status_report
+2023-05-22 19:09:19,741 DEBUG   SenderThread:6256 [sender.py:send():375] send: files
+2023-05-22 19:09:19,742 INFO    SenderThread:6256 [sender.py:_save_file():1378] saving file media\images\examples_gt_0_39d9e54ab120dca12161.png with policy now
+2023-05-22 19:09:19,746 DEBUG   SenderThread:6256 [sender.py:send():375] send: files
+2023-05-22 19:09:19,746 INFO    SenderThread:6256 [sender.py:_save_file():1378] saving file media\images\examples_gt_0_bea7b8b5c0631ca75194.png with policy now
+2023-05-22 19:09:19,756 DEBUG   SenderThread:6256 [sender.py:send():375] send: files
+2023-05-22 19:09:19,756 INFO    SenderThread:6256 [sender.py:_save_file():1378] saving file media\images\examples_gt_0_9aa2410e47876e576efe.png with policy now
+2023-05-22 19:09:19,762 DEBUG   SenderThread:6256 [sender.py:send():375] send: files
+2023-05-22 19:09:19,762 INFO    SenderThread:6256 [sender.py:_save_file():1378] saving file media\images\examples_gt_0_887ef37766de2408dd8c.png with policy now
+2023-05-22 19:09:19,771 DEBUG   SenderThread:6256 [sender.py:send():375] send: files
+2023-05-22 19:09:19,771 INFO    SenderThread:6256 [sender.py:_save_file():1378] saving file media\images\examples_gt_0_4765e4f20f2d4e5adc36.png with policy now
+2023-05-22 19:09:19,773 DEBUG   SenderThread:6256 [sender.py:send():375] send: files
+2023-05-22 19:09:19,774 INFO    SenderThread:6256 [sender.py:_save_file():1378] saving file media\images\examples_gt_0_58642ff34471faa93b28.png with policy now
+2023-05-22 19:09:19,782 DEBUG   SenderThread:6256 [sender.py:send():375] send: files
+2023-05-22 19:09:19,782 INFO    SenderThread:6256 [sender.py:_save_file():1378] saving file media\images\examples_gt_0_e182b4c7eaa2191983e3.png with policy now
+2023-05-22 19:09:19,805 DEBUG   SenderThread:6256 [sender.py:send():375] send: files
+2023-05-22 19:09:19,805 INFO    SenderThread:6256 [sender.py:_save_file():1378] saving file media\images\examples_recon_0_5011c84223a8863d9168.png with policy now
+2023-05-22 19:09:19,814 DEBUG   SenderThread:6256 [sender.py:send():375] send: files
+2023-05-22 19:09:19,814 INFO    SenderThread:6256 [sender.py:_save_file():1378] saving file media\images\examples_recon_0_d061d1a16bc6b2137629.png with policy now
+2023-05-22 19:09:19,819 DEBUG   SenderThread:6256 [sender.py:send():375] send: files
+2023-05-22 19:09:19,820 INFO    SenderThread:6256 [sender.py:_save_file():1378] saving file media\images\examples_recon_0_769ac9350bef1c3bb69c.png with policy now
+2023-05-22 19:09:19,825 DEBUG   SenderThread:6256 [sender.py:send():375] send: files
+2023-05-22 19:09:19,826 INFO    SenderThread:6256 [sender.py:_save_file():1378] saving file media\images\examples_recon_0_3ecd9af8ea8ef09f7098.png with policy now
+2023-05-22 19:09:19,832 DEBUG   SenderThread:6256 [sender.py:send():375] send: files
+2023-05-22 19:09:19,832 INFO    SenderThread:6256 [sender.py:_save_file():1378] saving file media\images\examples_recon_0_a3c0ce80b446561dfb93.png with policy now
+2023-05-22 19:09:19,835 DEBUG   SenderThread:6256 [sender.py:send():375] send: files
+2023-05-22 19:09:19,835 INFO    SenderThread:6256 [sender.py:_save_file():1378] saving file media\images\examples_recon_0_27bcc621b997d89d44a0.png with policy now
+2023-05-22 19:09:19,842 DEBUG   SenderThread:6256 [sender.py:send():375] send: files
+2023-05-22 19:09:19,842 INFO    SenderThread:6256 [sender.py:_save_file():1378] saving file media\images\examples_recon_0_f8b5bc9a98cd75498678.png with policy now
+2023-05-22 19:09:19,850 DEBUG   SenderThread:6256 [sender.py:send():375] send: files
+2023-05-22 19:09:19,850 INFO    SenderThread:6256 [sender.py:_save_file():1378] saving file media\images\examples_recon_0_34bcac13afb6bbd10304.png with policy now
+2023-05-22 19:09:19,883 DEBUG   SenderThread:6256 [sender.py:send():375] send: files
+2023-05-22 19:09:19,883 INFO    SenderThread:6256 [sender.py:_save_file():1378] saving file media\images\val_examples_gt_0_ec31ff6910f40f8bd715.png with policy now
+2023-05-22 19:09:19,892 DEBUG   SenderThread:6256 [sender.py:send():375] send: files
+2023-05-22 19:09:19,892 INFO    SenderThread:6256 [sender.py:_save_file():1378] saving file media\images\val_examples_gt_0_ae9e4085d7670a683720.png with policy now
+2023-05-22 19:09:19,894 DEBUG   SenderThread:6256 [sender.py:send():375] send: files
+2023-05-22 19:09:19,895 INFO    SenderThread:6256 [sender.py:_save_file():1378] saving file media\images\val_examples_gt_0_b86f6466635759e33314.png with policy now
+2023-05-22 19:09:19,901 DEBUG   SenderThread:6256 [sender.py:send():375] send: files
+2023-05-22 19:09:19,901 INFO    SenderThread:6256 [sender.py:_save_file():1378] saving file media\images\val_examples_gt_0_dc0aac0d2cc4671a02a7.png with policy now
+2023-05-22 19:09:19,908 DEBUG   SenderThread:6256 [sender.py:send():375] send: files
+2023-05-22 19:09:19,908 INFO    SenderThread:6256 [sender.py:_save_file():1378] saving file media\images\val_examples_gt_0_720cb08865010f1d17ee.png with policy now
+2023-05-22 19:09:19,911 DEBUG   SenderThread:6256 [sender.py:send():375] send: files
+2023-05-22 19:09:19,911 INFO    SenderThread:6256 [sender.py:_save_file():1378] saving file media\images\val_examples_gt_0_af58e9b8f47b6273bf68.png with policy now
+2023-05-22 19:09:19,920 DEBUG   SenderThread:6256 [sender.py:send():375] send: files
+2023-05-22 19:09:19,920 INFO    SenderThread:6256 [sender.py:_save_file():1378] saving file media\images\val_examples_gt_0_73a5a5dea6a02a578a92.png with policy now
+2023-05-22 19:09:19,942 DEBUG   SenderThread:6256 [sender.py:send():375] send: files
+2023-05-22 19:09:19,943 INFO    SenderThread:6256 [sender.py:_save_file():1378] saving file media\images\val_examples_gt_0_28f3dac63b36533a3f96.png with policy now
+2023-05-22 19:09:19,967 DEBUG   SenderThread:6256 [sender.py:send():375] send: files
+2023-05-22 19:09:19,968 INFO    SenderThread:6256 [sender.py:_save_file():1378] saving file media\images\val_examples_recon_0_d31c37ea082666e184c7.png with policy now
+2023-05-22 19:09:19,974 DEBUG   SenderThread:6256 [sender.py:send():375] send: files
+2023-05-22 19:09:19,974 INFO    SenderThread:6256 [sender.py:_save_file():1378] saving file media\images\val_examples_recon_0_fed4b404498371e7ba2a.png with policy now
+2023-05-22 19:09:19,977 DEBUG   SenderThread:6256 [sender.py:send():375] send: files
+2023-05-22 19:09:19,977 INFO    SenderThread:6256 [sender.py:_save_file():1378] saving file media\images\val_examples_recon_0_7cb434da81e25e199cd4.png with policy now
+2023-05-22 19:09:19,984 DEBUG   SenderThread:6256 [sender.py:send():375] send: files
+2023-05-22 19:09:19,984 INFO    SenderThread:6256 [sender.py:_save_file():1378] saving file media\images\val_examples_recon_0_8b8d6bb24888260a9dde.png with policy now
+2023-05-22 19:09:19,992 DEBUG   SenderThread:6256 [sender.py:send():375] send: files
+2023-05-22 19:09:19,992 INFO    SenderThread:6256 [sender.py:_save_file():1378] saving file media\images\val_examples_recon_0_c8aadb4f029ad2e115ea.png with policy now
+2023-05-22 19:09:20,000 DEBUG   SenderThread:6256 [sender.py:send():375] send: files
+2023-05-22 19:09:20,001 INFO    SenderThread:6256 [sender.py:_save_file():1378] saving file media\images\val_examples_recon_0_150b7ff4b78ec5ed3913.png with policy now
+2023-05-22 19:09:20,010 DEBUG   SenderThread:6256 [sender.py:send():375] send: files
+2023-05-22 19:09:20,010 INFO    SenderThread:6256 [sender.py:_save_file():1378] saving file media\images\val_examples_recon_0_9fa7682c24c0021868a4.png with policy now
+2023-05-22 19:09:20,012 DEBUG   SenderThread:6256 [sender.py:send():375] send: files
+2023-05-22 19:09:20,012 INFO    SenderThread:6256 [sender.py:_save_file():1378] saving file media\images\val_examples_recon_0_427b6b18b4cc209931a0.png with policy now
+2023-05-22 19:09:20,035 DEBUG   SenderThread:6256 [sender.py:send():375] send: files
+2023-05-22 19:09:20,035 DEBUG   HandlerThread:6256 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-22 19:09:20,035 INFO    SenderThread:6256 [sender.py:_save_file():1378] saving file media\videos\video_0_2f2c690444ecd3c2997f.gif with policy now
+2023-05-22 19:09:20,042 DEBUG   SenderThread:6256 [sender.py:send():375] send: history
+2023-05-22 19:09:20,042 DEBUG   SenderThread:6256 [sender.py:send_request():402] send_request: summary_record
+2023-05-22 19:09:20,045 INFO    SenderThread:6256 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-22 19:09:20,146 INFO    Thread-16 :6256 [dir_watcher.py:_on_file_modified():295] file/dir modified: C:\Users\owner\Desktop\python_workspace\shaders21k\cvae_training\wandb\run-20230522_190700-j9ga9ggs\files\wandb-summary.json
+2023-05-22 19:09:20,147 INFO    Thread-16 :6256 [dir_watcher.py:_on_file_created():278] file/dir created: C:\Users\owner\Desktop\python_workspace\shaders21k\cvae_training\wandb\run-20230522_190700-j9ga9ggs\files\media\images\examples_recon_0_27bcc621b997d89d44a0.png
+2023-05-22 19:09:20,150 INFO    Thread-16 :6256 [dir_watcher.py:_on_file_created():278] file/dir created: C:\Users\owner\Desktop\python_workspace\shaders21k\cvae_training\wandb\run-20230522_190700-j9ga9ggs\files\media\images\val_examples_gt_0_ae9e4085d7670a683720.png
+2023-05-22 19:09:20,153 INFO    Thread-16 :6256 [dir_watcher.py:_on_file_created():278] file/dir created: C:\Users\owner\Desktop\python_workspace\shaders21k\cvae_training\wandb\run-20230522_190700-j9ga9ggs\files\media\images\examples_recon_0_a3c0ce80b446561dfb93.png
+2023-05-22 19:09:20,154 INFO    Thread-16 :6256 [dir_watcher.py:_on_file_created():278] file/dir created: C:\Users\owner\Desktop\python_workspace\shaders21k\cvae_training\wandb\run-20230522_190700-j9ga9ggs\files\media\images\examples_recon_0_769ac9350bef1c3bb69c.png
+2023-05-22 19:09:20,155 INFO    Thread-16 :6256 [dir_watcher.py:_on_file_created():278] file/dir created: C:\Users\owner\Desktop\python_workspace\shaders21k\cvae_training\wandb\run-20230522_190700-j9ga9ggs\files\media\images\val_examples_gt_0_b86f6466635759e33314.png
+2023-05-22 19:09:20,156 INFO    Thread-16 :6256 [dir_watcher.py:_on_file_created():278] file/dir created: C:\Users\owner\Desktop\python_workspace\shaders21k\cvae_training\wandb\run-20230522_190700-j9ga9ggs\files\media\images\val_examples_recon_0_c8aadb4f029ad2e115ea.png
+2023-05-22 19:09:20,156 INFO    Thread-16 :6256 [dir_watcher.py:_on_file_created():278] file/dir created: C:\Users\owner\Desktop\python_workspace\shaders21k\cvae_training\wandb\run-20230522_190700-j9ga9ggs\files\media\images\val_examples_recon_0_9fa7682c24c0021868a4.png
+2023-05-22 19:09:20,157 INFO    Thread-16 :6256 [dir_watcher.py:_on_file_created():278] file/dir created: C:\Users\owner\Desktop\python_workspace\shaders21k\cvae_training\wandb\run-20230522_190700-j9ga9ggs\files\media\videos\video_0_2f2c690444ecd3c2997f.gif
+2023-05-22 19:09:20,158 INFO    Thread-16 :6256 [dir_watcher.py:_on_file_created():278] file/dir created: C:\Users\owner\Desktop\python_workspace\shaders21k\cvae_training\wandb\run-20230522_190700-j9ga9ggs\files\media\images\examples_recon_0_34bcac13afb6bbd10304.png
+2023-05-22 19:09:20,158 INFO    Thread-16 :6256 [dir_watcher.py:_on_file_created():278] file/dir created: C:\Users\owner\Desktop\python_workspace\shaders21k\cvae_training\wandb\run-20230522_190700-j9ga9ggs\files\media\images\val_examples_gt_0_720cb08865010f1d17ee.png
+2023-05-22 19:09:20,159 INFO    Thread-16 :6256 [dir_watcher.py:_on_file_created():278] file/dir created: C:\Users\owner\Desktop\python_workspace\shaders21k\cvae_training\wandb\run-20230522_190700-j9ga9ggs\files\media\images\val_examples_gt_0_28f3dac63b36533a3f96.png
+2023-05-22 19:09:20,159 INFO    Thread-16 :6256 [dir_watcher.py:_on_file_created():278] file/dir created: C:\Users\owner\Desktop\python_workspace\shaders21k\cvae_training\wandb\run-20230522_190700-j9ga9ggs\files\media\images\val_examples_recon_0_8b8d6bb24888260a9dde.png
+2023-05-22 19:09:20,159 INFO    Thread-16 :6256 [dir_watcher.py:_on_file_created():278] file/dir created: C:\Users\owner\Desktop\python_workspace\shaders21k\cvae_training\wandb\run-20230522_190700-j9ga9ggs\files\media\images\val_examples_gt_0_af58e9b8f47b6273bf68.png
+2023-05-22 19:09:20,159 INFO    Thread-16 :6256 [dir_watcher.py:_on_file_created():278] file/dir created: C:\Users\owner\Desktop\python_workspace\shaders21k\cvae_training\wandb\run-20230522_190700-j9ga9ggs\files\media\images\val_examples_recon_0_d31c37ea082666e184c7.png
+2023-05-22 19:09:20,160 INFO    Thread-16 :6256 [dir_watcher.py:_on_file_created():278] file/dir created: C:\Users\owner\Desktop\python_workspace\shaders21k\cvae_training\wandb\run-20230522_190700-j9ga9ggs\files\media\images\examples_gt_0_7de8efa70c3ef0d8448e.png
+2023-05-22 19:09:20,160 INFO    Thread-16 :6256 [dir_watcher.py:_on_file_created():278] file/dir created: C:\Users\owner\Desktop\python_workspace\shaders21k\cvae_training\wandb\run-20230522_190700-j9ga9ggs\files\media\images\examples_gt_0_e182b4c7eaa2191983e3.png
+2023-05-22 19:09:20,160 INFO    Thread-16 :6256 [dir_watcher.py:_on_file_created():278] file/dir created: C:\Users\owner\Desktop\python_workspace\shaders21k\cvae_training\wandb\run-20230522_190700-j9ga9ggs\files\media\images\examples_recon_0_3ecd9af8ea8ef09f7098.png
+2023-05-22 19:09:20,160 INFO    Thread-16 :6256 [dir_watcher.py:_on_file_created():278] file/dir created: C:\Users\owner\Desktop\python_workspace\shaders21k\cvae_training\wandb\run-20230522_190700-j9ga9ggs\files\media\images\examples_gt_0_4765e4f20f2d4e5adc36.png
+2023-05-22 19:09:20,161 INFO    Thread-16 :6256 [dir_watcher.py:_on_file_created():278] file/dir created: C:\Users\owner\Desktop\python_workspace\shaders21k\cvae_training\wandb\run-20230522_190700-j9ga9ggs\files\media\images\examples_gt_0_887ef37766de2408dd8c.png
+2023-05-22 19:09:20,161 INFO    Thread-16 :6256 [dir_watcher.py:_on_file_created():278] file/dir created: C:\Users\owner\Desktop\python_workspace\shaders21k\cvae_training\wandb\run-20230522_190700-j9ga9ggs\files\media\images\val_examples_recon_0_fed4b404498371e7ba2a.png
+2023-05-22 19:09:20,161 INFO    Thread-16 :6256 [dir_watcher.py:_on_file_created():278] file/dir created: C:\Users\owner\Desktop\python_workspace\shaders21k\cvae_training\wandb\run-20230522_190700-j9ga9ggs\files\media\images\val_examples_recon_0_7cb434da81e25e199cd4.png
+2023-05-22 19:09:20,162 INFO    Thread-16 :6256 [dir_watcher.py:_on_file_created():278] file/dir created: C:\Users\owner\Desktop\python_workspace\shaders21k\cvae_training\wandb\run-20230522_190700-j9ga9ggs\files\media\images\examples_recon_0_d061d1a16bc6b2137629.png
+2023-05-22 19:09:20,162 INFO    Thread-16 :6256 [dir_watcher.py:_on_file_created():278] file/dir created: C:\Users\owner\Desktop\python_workspace\shaders21k\cvae_training\wandb\run-20230522_190700-j9ga9ggs\files\media\images\examples_recon_0_f8b5bc9a98cd75498678.png
+2023-05-22 19:09:20,162 INFO    Thread-16 :6256 [dir_watcher.py:_on_file_created():278] file/dir created: C:\Users\owner\Desktop\python_workspace\shaders21k\cvae_training\wandb\run-20230522_190700-j9ga9ggs\files\media\images\examples_gt_0_58642ff34471faa93b28.png
+2023-05-22 19:09:20,162 INFO    Thread-16 :6256 [dir_watcher.py:_on_file_created():278] file/dir created: C:\Users\owner\Desktop\python_workspace\shaders21k\cvae_training\wandb\run-20230522_190700-j9ga9ggs\files\media\images\val_examples_gt_0_ec31ff6910f40f8bd715.png
+2023-05-22 19:09:20,163 INFO    Thread-16 :6256 [dir_watcher.py:_on_file_created():278] file/dir created: C:\Users\owner\Desktop\python_workspace\shaders21k\cvae_training\wandb\run-20230522_190700-j9ga9ggs\files\media\images\examples_recon_0_5011c84223a8863d9168.png
+2023-05-22 19:09:20,163 INFO    Thread-16 :6256 [dir_watcher.py:_on_file_created():278] file/dir created: C:\Users\owner\Desktop\python_workspace\shaders21k\cvae_training\wandb\run-20230522_190700-j9ga9ggs\files\media\images\examples_gt_0_39d9e54ab120dca12161.png
+2023-05-22 19:09:20,163 INFO    Thread-16 :6256 [dir_watcher.py:_on_file_created():278] file/dir created: C:\Users\owner\Desktop\python_workspace\shaders21k\cvae_training\wandb\run-20230522_190700-j9ga9ggs\files\media\images\val_examples_gt_0_73a5a5dea6a02a578a92.png
+2023-05-22 19:09:20,164 INFO    Thread-16 :6256 [dir_watcher.py:_on_file_created():278] file/dir created: C:\Users\owner\Desktop\python_workspace\shaders21k\cvae_training\wandb\run-20230522_190700-j9ga9ggs\files\media\images\val_examples_gt_0_dc0aac0d2cc4671a02a7.png
+2023-05-22 19:09:20,164 INFO    Thread-16 :6256 [dir_watcher.py:_on_file_created():278] file/dir created: C:\Users\owner\Desktop\python_workspace\shaders21k\cvae_training\wandb\run-20230522_190700-j9ga9ggs\files\media\images\examples_gt_0_bea7b8b5c0631ca75194.png
+2023-05-22 19:09:20,164 INFO    Thread-16 :6256 [dir_watcher.py:_on_file_created():278] file/dir created: C:\Users\owner\Desktop\python_workspace\shaders21k\cvae_training\wandb\run-20230522_190700-j9ga9ggs\files\media\images\val_examples_recon_0_150b7ff4b78ec5ed3913.png
+2023-05-22 19:09:20,165 INFO    Thread-16 :6256 [dir_watcher.py:_on_file_created():278] file/dir created: C:\Users\owner\Desktop\python_workspace\shaders21k\cvae_training\wandb\run-20230522_190700-j9ga9ggs\files\media\images\val_examples_recon_0_427b6b18b4cc209931a0.png
+2023-05-22 19:09:20,165 INFO    Thread-16 :6256 [dir_watcher.py:_on_file_created():278] file/dir created: C:\Users\owner\Desktop\python_workspace\shaders21k\cvae_training\wandb\run-20230522_190700-j9ga9ggs\files\media\images\examples_gt_0_9aa2410e47876e576efe.png
+2023-05-22 19:09:20,165 INFO    Thread-16 :6256 [dir_watcher.py:_on_file_created():278] file/dir created: C:\Users\owner\Desktop\python_workspace\shaders21k\cvae_training\wandb\run-20230522_190700-j9ga9ggs\files\media\videos
+2023-05-22 19:09:20,165 INFO    Thread-16 :6256 [dir_watcher.py:_on_file_created():278] file/dir created: C:\Users\owner\Desktop\python_workspace\shaders21k\cvae_training\wandb\run-20230522_190700-j9ga9ggs\files\media
+2023-05-22 19:09:20,166 INFO    Thread-16 :6256 [dir_watcher.py:_on_file_created():278] file/dir created: C:\Users\owner\Desktop\python_workspace\shaders21k\cvae_training\wandb\run-20230522_190700-j9ga9ggs\files\media\images
+2023-05-22 19:09:20,602 INFO    wandb-upload_0:6256 [upload_job.py:push():137] Uploaded file C:\Users\owner\AppData\Local\Temp\tmp9oyadmwuwandb\sh091lgt-media/images/examples_gt_0_7de8efa70c3ef0d8448e.png
+2023-05-22 19:09:21,044 INFO    wandb-upload_1:6256 [upload_job.py:push():137] Uploaded file C:\Users\owner\AppData\Local\Temp\tmp9oyadmwuwandb\fbs8kz7j-media/images/examples_gt_0_39d9e54ab120dca12161.png
+2023-05-22 19:09:21,125 INFO    wandb-upload_6:6256 [upload_job.py:push():137] Uploaded file C:\Users\owner\AppData\Local\Temp\tmp9oyadmwuwandb\mi885thm-media/images/examples_gt_0_58642ff34471faa93b28.png
+2023-05-22 19:09:21,236 INFO    wandb-upload_4:6256 [upload_job.py:push():137] Uploaded file C:\Users\owner\AppData\Local\Temp\tmp9oyadmwuwandb\4oih9t7i-media/images/examples_gt_0_887ef37766de2408dd8c.png
+2023-05-22 19:09:21,256 INFO    wandb-upload_2:6256 [upload_job.py:push():137] Uploaded file C:\Users\owner\AppData\Local\Temp\tmp9oyadmwuwandb\bxvo1wkh-media/images/examples_gt_0_bea7b8b5c0631ca75194.png
+2023-05-22 19:09:21,278 INFO    wandb-upload_3:6256 [upload_job.py:push():137] Uploaded file C:\Users\owner\AppData\Local\Temp\tmp9oyadmwuwandb\x8boyjz1-media/images/examples_gt_0_9aa2410e47876e576efe.png
+2023-05-22 19:09:21,303 INFO    wandb-upload_7:6256 [upload_job.py:push():137] Uploaded file C:\Users\owner\AppData\Local\Temp\tmp9oyadmwuwandb\m5n6w5ai-media/images/examples_gt_0_e182b4c7eaa2191983e3.png
+2023-05-22 19:09:21,336 INFO    wandb-upload_5:6256 [upload_job.py:push():137] Uploaded file C:\Users\owner\AppData\Local\Temp\tmp9oyadmwuwandb\2els8j2g-media/images/examples_gt_0_4765e4f20f2d4e5adc36.png
+2023-05-22 19:09:21,398 INFO    wandb-upload_16:6256 [upload_job.py:push():137] Uploaded file C:\Users\owner\AppData\Local\Temp\tmp9oyadmwuwandb\vmpefn4t-media/images/val_examples_gt_0_ec31ff6910f40f8bd715.png
+2023-05-22 19:09:21,408 INFO    wandb-upload_18:6256 [upload_job.py:push():137] Uploaded file C:\Users\owner\AppData\Local\Temp\tmp9oyadmwuwandb\bosrn49a-media/images/val_examples_gt_0_dc0aac0d2cc4671a02a7.png
+2023-05-22 19:09:21,433 INFO    wandb-upload_21:6256 [upload_job.py:push():137] Uploaded file C:\Users\owner\AppData\Local\Temp\tmp9oyadmwuwandb\1xat7l0j-media/images/val_examples_gt_0_af58e9b8f47b6273bf68.png
+2023-05-22 19:09:21,511 INFO    wandb-upload_22:6256 [upload_job.py:push():137] Uploaded file C:\Users\owner\AppData\Local\Temp\tmp9oyadmwuwandb\flh16est-media/images/val_examples_gt_0_73a5a5dea6a02a578a92.png
+2023-05-22 19:09:21,586 INFO    wandb-upload_20:6256 [upload_job.py:push():137] Uploaded file C:\Users\owner\AppData\Local\Temp\tmp9oyadmwuwandb\aa3kkemo-media/images/val_examples_gt_0_720cb08865010f1d17ee.png
+2023-05-22 19:09:21,589 INFO    wandb-upload_17:6256 [upload_job.py:push():137] Uploaded file C:\Users\owner\AppData\Local\Temp\tmp9oyadmwuwandb\oppi13ul-media/images/val_examples_gt_0_ae9e4085d7670a683720.png
+2023-05-22 19:09:21,610 INFO    wandb-upload_19:6256 [upload_job.py:push():137] Uploaded file C:\Users\owner\AppData\Local\Temp\tmp9oyadmwuwandb\z9t392ij-media/images/val_examples_gt_0_b86f6466635759e33314.png
+2023-05-22 19:09:21,839 INFO    wandb-upload_10:6256 [upload_job.py:push():137] Uploaded file C:\Users\owner\AppData\Local\Temp\tmp9oyadmwuwandb\vd070sbn-media/images/examples_recon_0_769ac9350bef1c3bb69c.png
+2023-05-22 19:09:21,854 INFO    wandb-upload_11:6256 [upload_job.py:push():137] Uploaded file C:\Users\owner\AppData\Local\Temp\tmp9oyadmwuwandb\nq3cwrif-media/images/examples_recon_0_3ecd9af8ea8ef09f7098.png
+2023-05-22 19:09:21,873 INFO    wandb-upload_15:6256 [upload_job.py:push():137] Uploaded file C:\Users\owner\AppData\Local\Temp\tmp9oyadmwuwandb\q56iklv4-media/images/examples_recon_0_34bcac13afb6bbd10304.png
+2023-05-22 19:09:21,875 INFO    wandb-upload_8:6256 [upload_job.py:push():137] Uploaded file C:\Users\owner\AppData\Local\Temp\tmp9oyadmwuwandb\gjbhhko4-media/images/examples_recon_0_5011c84223a8863d9168.png
+2023-05-22 19:09:21,896 INFO    wandb-upload_13:6256 [upload_job.py:push():137] Uploaded file C:\Users\owner\AppData\Local\Temp\tmp9oyadmwuwandb\8y7xc5hx-media/images/examples_recon_0_27bcc621b997d89d44a0.png
+2023-05-22 19:09:21,908 INFO    wandb-upload_14:6256 [upload_job.py:push():137] Uploaded file C:\Users\owner\AppData\Local\Temp\tmp9oyadmwuwandb\26sii4r4-media/images/examples_recon_0_f8b5bc9a98cd75498678.png
+2023-05-22 19:09:21,914 INFO    wandb-upload_23:6256 [upload_job.py:push():137] Uploaded file C:\Users\owner\AppData\Local\Temp\tmp9oyadmwuwandb\ejlyure9-media/images/val_examples_gt_0_28f3dac63b36533a3f96.png
+2023-05-22 19:09:21,923 INFO    wandb-upload_9:6256 [upload_job.py:push():137] Uploaded file C:\Users\owner\AppData\Local\Temp\tmp9oyadmwuwandb\6wmbjkaf-media/images/examples_recon_0_d061d1a16bc6b2137629.png
+2023-05-22 19:09:22,026 INFO    wandb-upload_25:6256 [upload_job.py:push():137] Uploaded file C:\Users\owner\AppData\Local\Temp\tmp9oyadmwuwandb\b5jbivcj-media/images/val_examples_recon_0_fed4b404498371e7ba2a.png
+2023-05-22 19:09:22,043 INFO    wandb-upload_28:6256 [upload_job.py:push():137] Uploaded file C:\Users\owner\AppData\Local\Temp\tmp9oyadmwuwandb\2elwbvoh-media/images/val_examples_recon_0_c8aadb4f029ad2e115ea.png
+2023-05-22 19:09:22,059 INFO    wandb-upload_27:6256 [upload_job.py:push():137] Uploaded file C:\Users\owner\AppData\Local\Temp\tmp9oyadmwuwandb\566vy2d3-media/images/val_examples_recon_0_8b8d6bb24888260a9dde.png
+2023-05-22 19:09:22,071 INFO    wandb-upload_30:6256 [upload_job.py:push():137] Uploaded file C:\Users\owner\AppData\Local\Temp\tmp9oyadmwuwandb\t6r6aa7l-media/images/val_examples_recon_0_9fa7682c24c0021868a4.png
+2023-05-22 19:09:22,080 INFO    wandb-upload_26:6256 [upload_job.py:push():137] Uploaded file C:\Users\owner\AppData\Local\Temp\tmp9oyadmwuwandb\wkhvtth9-media/images/val_examples_recon_0_7cb434da81e25e199cd4.png
+2023-05-22 19:09:22,082 INFO    wandb-upload_29:6256 [upload_job.py:push():137] Uploaded file C:\Users\owner\AppData\Local\Temp\tmp9oyadmwuwandb\y77cwh7s-media/images/val_examples_recon_0_150b7ff4b78ec5ed3913.png
+2023-05-22 19:09:22,092 INFO    wandb-upload_31:6256 [upload_job.py:push():137] Uploaded file C:\Users\owner\AppData\Local\Temp\tmp9oyadmwuwandb\igenyl8g-media/images/val_examples_recon_0_427b6b18b4cc209931a0.png
+2023-05-22 19:09:22,113 INFO    wandb-upload_24:6256 [upload_job.py:push():137] Uploaded file C:\Users\owner\AppData\Local\Temp\tmp9oyadmwuwandb\3a6gqiui-media/images/val_examples_recon_0_d31c37ea082666e184c7.png
+2023-05-22 19:09:22,974 INFO    wandb-upload_12:6256 [upload_job.py:push():137] Uploaded file C:\Users\owner\AppData\Local\Temp\tmp9oyadmwuwandb\o52g70m4-media/images/examples_recon_0_a3c0ce80b446561dfb93.png
+2023-05-22 19:09:25,143 DEBUG   HandlerThread:6256 [handler.py:handle_request():144] handle_request: status_report
+2023-05-22 19:09:30,189 DEBUG   HandlerThread:6256 [handler.py:handle_request():144] handle_request: status_report
+2023-05-22 19:09:33,169 DEBUG   SenderThread:6256 [sender.py:send():375] send: stats
+2023-05-22 19:09:33,468 DEBUG   HandlerThread:6256 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-22 19:09:33,469 DEBUG   SenderThread:6256 [sender.py:send_request():402] send_request: stop_status
+2023-05-22 19:09:34,771 INFO    wandb-upload_32:6256 [upload_job.py:push():137] Uploaded file C:\Users\owner\AppData\Local\Temp\tmp9oyadmwuwandb\uhfwmr4h-media/videos/video_0_2f2c690444ecd3c2997f.gif
+2023-05-22 19:09:35,683 DEBUG   HandlerThread:6256 [handler.py:handle_request():144] handle_request: status_report
+2023-05-22 19:09:40,778 DEBUG   HandlerThread:6256 [handler.py:handle_request():144] handle_request: status_report
+2023-05-22 19:09:45,838 DEBUG   HandlerThread:6256 [handler.py:handle_request():144] handle_request: status_report
+2023-05-22 19:09:48,510 DEBUG   HandlerThread:6256 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-22 19:09:48,511 DEBUG   SenderThread:6256 [sender.py:send_request():402] send_request: stop_status
+2023-05-22 19:09:51,736 DEBUG   HandlerThread:6256 [handler.py:handle_request():144] handle_request: status_report
+2023-05-22 19:09:56,780 DEBUG   HandlerThread:6256 [handler.py:handle_request():144] handle_request: status_report
+2023-05-22 19:10:01,219 INFO    Thread-16 :6256 [dir_watcher.py:_on_file_modified():295] file/dir modified: C:\Users\owner\Desktop\python_workspace\shaders21k\cvae_training\wandb\run-20230522_190700-j9ga9ggs\files\output.log
+2023-05-22 19:10:01,963 DEBUG   HandlerThread:6256 [handler.py:handle_request():144] handle_request: status_report
+2023-05-22 19:10:03,184 DEBUG   SenderThread:6256 [sender.py:send():375] send: stats
+2023-05-22 19:10:03,538 DEBUG   HandlerThread:6256 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-22 19:10:03,538 DEBUG   SenderThread:6256 [sender.py:send_request():402] send_request: stop_status
+2023-05-22 19:10:07,761 DEBUG   HandlerThread:6256 [handler.py:handle_request():144] handle_request: status_report
+2023-05-22 19:10:12,844 DEBUG   HandlerThread:6256 [handler.py:handle_request():144] handle_request: status_report
+2023-05-22 19:10:17,901 DEBUG   HandlerThread:6256 [handler.py:handle_request():144] handle_request: status_report
+2023-05-22 19:10:18,554 DEBUG   HandlerThread:6256 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-22 19:10:18,554 DEBUG   SenderThread:6256 [sender.py:send_request():402] send_request: stop_status
+2023-05-22 19:10:23,901 DEBUG   HandlerThread:6256 [handler.py:handle_request():144] handle_request: status_report
+2023-05-22 19:10:29,473 DEBUG   HandlerThread:6256 [handler.py:handle_request():144] handle_request: status_report
+2023-05-22 19:10:29,770 INFO    Thread-16 :6256 [dir_watcher.py:_on_file_modified():295] file/dir modified: C:\Users\owner\Desktop\python_workspace\shaders21k\cvae_training\wandb\run-20230522_190700-j9ga9ggs\files\output.log
+2023-05-22 19:10:31,807 INFO    Thread-16 :6256 [dir_watcher.py:_on_file_modified():295] file/dir modified: C:\Users\owner\Desktop\python_workspace\shaders21k\cvae_training\wandb\run-20230522_190700-j9ga9ggs\files\output.log
+2023-05-22 19:10:33,192 DEBUG   SenderThread:6256 [sender.py:send():375] send: stats
+2023-05-22 19:10:33,557 DEBUG   HandlerThread:6256 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-22 19:10:33,558 DEBUG   SenderThread:6256 [sender.py:send_request():402] send_request: stop_status
+2023-05-22 19:10:34,763 DEBUG   HandlerThread:6256 [handler.py:handle_request():144] handle_request: status_report
+2023-05-22 19:10:39,840 DEBUG   HandlerThread:6256 [handler.py:handle_request():144] handle_request: status_report
+2023-05-22 19:10:44,900 DEBUG   HandlerThread:6256 [handler.py:handle_request():144] handle_request: status_report
+2023-05-22 19:10:47,065 INFO    Thread-16 :6256 [dir_watcher.py:_on_file_modified():295] file/dir modified: C:\Users\owner\Desktop\python_workspace\shaders21k\cvae_training\wandb\run-20230522_190700-j9ga9ggs\files\output.log
+2023-05-22 19:10:48,568 DEBUG   HandlerThread:6256 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-22 19:10:48,568 DEBUG   SenderThread:6256 [sender.py:send_request():402] send_request: stop_status
+2023-05-22 19:10:50,786 DEBUG   HandlerThread:6256 [handler.py:handle_request():144] handle_request: status_report
+2023-05-22 19:10:55,831 DEBUG   HandlerThread:6256 [handler.py:handle_request():144] handle_request: status_report
+2023-05-22 19:11:00,898 DEBUG   HandlerThread:6256 [handler.py:handle_request():144] handle_request: status_report
+2023-05-22 19:11:03,205 DEBUG   SenderThread:6256 [sender.py:send():375] send: stats
+2023-05-22 19:11:03,287 INFO    Thread-16 :6256 [dir_watcher.py:_on_file_modified():295] file/dir modified: C:\Users\owner\Desktop\python_workspace\shaders21k\cvae_training\wandb\run-20230522_190700-j9ga9ggs\files\output.log
+2023-05-22 19:11:03,581 DEBUG   HandlerThread:6256 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-22 19:11:03,582 DEBUG   SenderThread:6256 [sender.py:send_request():402] send_request: stop_status
+2023-05-22 19:11:04,299 INFO    Thread-16 :6256 [dir_watcher.py:_on_file_created():278] file/dir created: C:\Users\owner\Desktop\python_workspace\shaders21k\cvae_training\wandb\run-20230522_190700-j9ga9ggs\files\checkpoint_val_loss=-0.6880.pt
+2023-05-22 19:11:05,316 INFO    Thread-16 :6256 [dir_watcher.py:_on_file_modified():295] file/dir modified: C:\Users\owner\Desktop\python_workspace\shaders21k\cvae_training\wandb\run-20230522_190700-j9ga9ggs\files\output.log
+2023-05-22 19:11:06,848 DEBUG   HandlerThread:6256 [handler.py:handle_request():144] handle_request: status_report
+2023-05-22 19:11:11,881 DEBUG   HandlerThread:6256 [handler.py:handle_request():144] handle_request: status_report
+2023-05-22 19:11:16,902 DEBUG   HandlerThread:6256 [handler.py:handle_request():144] handle_request: status_report
+2023-05-22 19:11:18,582 DEBUG   HandlerThread:6256 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-22 19:11:18,583 DEBUG   SenderThread:6256 [sender.py:send_request():402] send_request: stop_status
+2023-05-22 19:11:22,811 DEBUG   HandlerThread:6256 [handler.py:handle_request():144] handle_request: status_report
+2023-05-22 19:11:27,852 DEBUG   HandlerThread:6256 [handler.py:handle_request():144] handle_request: status_report
+2023-05-22 19:11:32,887 DEBUG   HandlerThread:6256 [handler.py:handle_request():144] handle_request: status_report
+2023-05-22 19:11:33,207 DEBUG   SenderThread:6256 [sender.py:send():375] send: stats
+2023-05-22 19:11:33,588 DEBUG   HandlerThread:6256 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-22 19:11:33,589 DEBUG   SenderThread:6256 [sender.py:send_request():402] send_request: stop_status
+2023-05-22 19:11:37,931 DEBUG   SenderThread:6256 [sender.py:send():375] send: files
+2023-05-22 19:11:37,931 INFO    SenderThread:6256 [sender.py:_save_file():1378] saving file media\images\examples_gt_1_9369cdb75aa9fbd652d2.png with policy now
+2023-05-22 19:11:37,932 DEBUG   HandlerThread:6256 [handler.py:handle_request():144] handle_request: status_report
+2023-05-22 19:11:37,938 DEBUG   SenderThread:6256 [sender.py:send():375] send: files
+2023-05-22 19:11:37,938 INFO    SenderThread:6256 [sender.py:_save_file():1378] saving file media\images\examples_gt_1_f49e795274c151dd8328.png with policy now
+2023-05-22 19:11:37,946 DEBUG   SenderThread:6256 [sender.py:send():375] send: files
+2023-05-22 19:11:37,946 INFO    SenderThread:6256 [sender.py:_save_file():1378] saving file media\images\examples_gt_1_3e49d015292ba7b4c1f8.png with policy now
+2023-05-22 19:11:37,953 DEBUG   SenderThread:6256 [sender.py:send():375] send: files
+2023-05-22 19:11:37,953 INFO    SenderThread:6256 [sender.py:_save_file():1378] saving file media\images\examples_gt_1_07a2aa17b5d01821d09a.png with policy now
+2023-05-22 19:11:37,958 DEBUG   SenderThread:6256 [sender.py:send():375] send: files
+2023-05-22 19:11:37,959 INFO    SenderThread:6256 [sender.py:_save_file():1378] saving file media\images\examples_gt_1_0c9ccd1532183fbe28c3.png with policy now
+2023-05-22 19:11:37,962 DEBUG   SenderThread:6256 [sender.py:send():375] send: files
+2023-05-22 19:11:37,962 INFO    SenderThread:6256 [sender.py:_save_file():1378] saving file media\images\examples_gt_1_0e5b4771debd26be65d4.png with policy now
+2023-05-22 19:11:37,968 DEBUG   SenderThread:6256 [sender.py:send():375] send: files
+2023-05-22 19:11:37,968 INFO    SenderThread:6256 [sender.py:_save_file():1378] saving file media\images\examples_gt_1_4008daf231351cbc7a68.png with policy now
+2023-05-22 19:11:37,973 DEBUG   SenderThread:6256 [sender.py:send():375] send: files
+2023-05-22 19:11:37,973 INFO    SenderThread:6256 [sender.py:_save_file():1378] saving file media\images\examples_gt_1_444806e753a185a15e48.png with policy now
+2023-05-22 19:11:38,001 DEBUG   SenderThread:6256 [sender.py:send():375] send: files
+2023-05-22 19:11:38,001 INFO    SenderThread:6256 [sender.py:_save_file():1378] saving file media\images\examples_recon_1_21166b14a223633c8212.png with policy now
+2023-05-22 19:11:38,007 DEBUG   SenderThread:6256 [sender.py:send():375] send: files
+2023-05-22 19:11:38,007 INFO    SenderThread:6256 [sender.py:_save_file():1378] saving file media\images\examples_recon_1_3fe5c56b968f089c6c46.png with policy now
+2023-05-22 19:11:38,011 DEBUG   SenderThread:6256 [sender.py:send():375] send: files
+2023-05-22 19:11:38,011 INFO    SenderThread:6256 [sender.py:_save_file():1378] saving file media\images\examples_recon_1_31b260d9eea8f661e1f8.png with policy now
+2023-05-22 19:11:38,020 DEBUG   SenderThread:6256 [sender.py:send():375] send: files
+2023-05-22 19:11:38,020 INFO    SenderThread:6256 [sender.py:_save_file():1378] saving file media\images\examples_recon_1_62098aee67751a9f816d.png with policy now
+2023-05-22 19:11:38,023 DEBUG   SenderThread:6256 [sender.py:send():375] send: files
+2023-05-22 19:11:38,023 INFO    SenderThread:6256 [sender.py:_save_file():1378] saving file media\images\examples_recon_1_5901ffde6abb7efd5a5d.png with policy now
+2023-05-22 19:11:38,028 DEBUG   SenderThread:6256 [sender.py:send():375] send: files
+2023-05-22 19:11:38,028 INFO    SenderThread:6256 [sender.py:_save_file():1378] saving file media\images\examples_recon_1_8a389ac884c178d1fffd.png with policy now
+2023-05-22 19:11:38,033 DEBUG   SenderThread:6256 [sender.py:send():375] send: files
+2023-05-22 19:11:38,034 INFO    SenderThread:6256 [sender.py:_save_file():1378] saving file media\images\examples_recon_1_aea909bdc106f420f14a.png with policy now
+2023-05-22 19:11:38,039 DEBUG   SenderThread:6256 [sender.py:send():375] send: files
+2023-05-22 19:11:38,039 INFO    SenderThread:6256 [sender.py:_save_file():1378] saving file media\images\examples_recon_1_3195da1a55c2db38c2c8.png with policy now
+2023-05-22 19:11:38,067 DEBUG   SenderThread:6256 [sender.py:send():375] send: files
+2023-05-22 19:11:38,067 INFO    SenderThread:6256 [sender.py:_save_file():1378] saving file media\images\val_examples_gt_1_ec31ff6910f40f8bd715.png with policy now
+2023-05-22 19:11:38,074 DEBUG   SenderThread:6256 [sender.py:send():375] send: files
+2023-05-22 19:11:38,074 INFO    SenderThread:6256 [sender.py:_save_file():1378] saving file media\images\val_examples_gt_1_ae9e4085d7670a683720.png with policy now
+2023-05-22 19:11:38,077 DEBUG   SenderThread:6256 [sender.py:send():375] send: files
+2023-05-22 19:11:38,077 INFO    SenderThread:6256 [sender.py:_save_file():1378] saving file media\images\val_examples_gt_1_b86f6466635759e33314.png with policy now
+2023-05-22 19:11:38,083 DEBUG   SenderThread:6256 [sender.py:send():375] send: files
+2023-05-22 19:11:38,083 INFO    SenderThread:6256 [sender.py:_save_file():1378] saving file media\images\val_examples_gt_1_dc0aac0d2cc4671a02a7.png with policy now
+2023-05-22 19:11:38,088 DEBUG   SenderThread:6256 [sender.py:send():375] send: files
+2023-05-22 19:11:38,088 INFO    SenderThread:6256 [sender.py:_save_file():1378] saving file media\images\val_examples_gt_1_720cb08865010f1d17ee.png with policy now
+2023-05-22 19:11:38,095 DEBUG   SenderThread:6256 [sender.py:send():375] send: files
+2023-05-22 19:11:38,096 INFO    SenderThread:6256 [sender.py:_save_file():1378] saving file media\images\val_examples_gt_1_af58e9b8f47b6273bf68.png with policy now
+2023-05-22 19:11:38,098 DEBUG   SenderThread:6256 [sender.py:send():375] send: files
+2023-05-22 19:11:38,098 INFO    SenderThread:6256 [sender.py:_save_file():1378] saving file media\images\val_examples_gt_1_73a5a5dea6a02a578a92.png with policy now
+2023-05-22 19:11:38,107 DEBUG   SenderThread:6256 [sender.py:send():375] send: files
+2023-05-22 19:11:38,107 INFO    SenderThread:6256 [sender.py:_save_file():1378] saving file media\images\val_examples_gt_1_28f3dac63b36533a3f96.png with policy now
+2023-05-22 19:11:38,129 DEBUG   SenderThread:6256 [sender.py:send():375] send: files
+2023-05-22 19:11:38,130 INFO    SenderThread:6256 [sender.py:_save_file():1378] saving file media\images\val_examples_recon_1_aaa516a58275e5b62373.png with policy now
+2023-05-22 19:11:38,136 DEBUG   SenderThread:6256 [sender.py:send():375] send: files
+2023-05-22 19:11:38,136 INFO    SenderThread:6256 [sender.py:_save_file():1378] saving file media\images\val_examples_recon_1_79e539740ff7766cfaff.png with policy now
+2023-05-22 19:11:38,140 DEBUG   SenderThread:6256 [sender.py:send():375] send: files
+2023-05-22 19:11:38,140 INFO    SenderThread:6256 [sender.py:_save_file():1378] saving file media\images\val_examples_recon_1_8d26ff235f3a717812ca.png with policy now
+2023-05-22 19:11:38,145 DEBUG   SenderThread:6256 [sender.py:send():375] send: files
+2023-05-22 19:11:38,145 INFO    SenderThread:6256 [sender.py:_save_file():1378] saving file media\images\val_examples_recon_1_c0fe7b2a6a4848b7829c.png with policy now
+2023-05-22 19:11:38,152 DEBUG   SenderThread:6256 [sender.py:send():375] send: files
+2023-05-22 19:11:38,153 INFO    SenderThread:6256 [sender.py:_save_file():1378] saving file media\images\val_examples_recon_1_7f5d74f2943eff5f4063.png with policy now
+2023-05-22 19:11:38,159 DEBUG   SenderThread:6256 [sender.py:send():375] send: files
+2023-05-22 19:11:38,159 INFO    SenderThread:6256 [sender.py:_save_file():1378] saving file media\images\val_examples_recon_1_9138a867aa34ffa15e95.png with policy now
+2023-05-22 19:11:38,165 DEBUG   SenderThread:6256 [sender.py:send():375] send: files
+2023-05-22 19:11:38,166 INFO    SenderThread:6256 [sender.py:_save_file():1378] saving file media\images\val_examples_recon_1_6bd2d0b5ff9d761fb1bd.png with policy now
+2023-05-22 19:11:38,171 DEBUG   SenderThread:6256 [sender.py:send():375] send: files
+2023-05-22 19:11:38,171 INFO    SenderThread:6256 [sender.py:_save_file():1378] saving file media\images\val_examples_recon_1_9ebc0dfa2e7867e8e212.png with policy now
+2023-05-22 19:11:38,192 DEBUG   HandlerThread:6256 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-22 19:11:38,194 DEBUG   SenderThread:6256 [sender.py:send():375] send: files
+2023-05-22 19:11:38,194 INFO    SenderThread:6256 [sender.py:_save_file():1378] saving file media\videos\video_1_e7532249b8ab713c9a7b.gif with policy now
+2023-05-22 19:11:38,199 DEBUG   SenderThread:6256 [sender.py:send():375] send: history
+2023-05-22 19:11:38,199 DEBUG   SenderThread:6256 [sender.py:send_request():402] send_request: summary_record
+2023-05-22 19:11:38,203 INFO    SenderThread:6256 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-22 19:11:38,624 INFO    wandb-upload_1:6256 [upload_job.py:push():137] Uploaded file C:\Users\owner\AppData\Local\Temp\tmp9oyadmwuwandb\a5ldhrig-media/images/examples_gt_1_f49e795274c151dd8328.png
+2023-05-22 19:11:38,650 INFO    wandb-upload_33:6256 [upload_job.py:push():137] Uploaded file C:\Users\owner\AppData\Local\Temp\tmp9oyadmwuwandb\2dw8mnj4-media/images/examples_gt_1_9369cdb75aa9fbd652d2.png
+2023-05-22 19:11:38,669 INFO    wandb-upload_3:6256 [upload_job.py:push():137] Uploaded file C:\Users\owner\AppData\Local\Temp\tmp9oyadmwuwandb\p4t14eae-media/images/examples_gt_1_07a2aa17b5d01821d09a.png
+2023-05-22 19:11:38,681 INFO    wandb-upload_4:6256 [upload_job.py:push():137] Uploaded file C:\Users\owner\AppData\Local\Temp\tmp9oyadmwuwandb\sjhb73bx-media/images/examples_gt_1_3e49d015292ba7b4c1f8.png
+2023-05-22 19:11:38,706 INFO    Thread-16 :6256 [dir_watcher.py:_on_file_modified():295] file/dir modified: C:\Users\owner\Desktop\python_workspace\shaders21k\cvae_training\wandb\run-20230522_190700-j9ga9ggs\files\wandb-summary.json
+2023-05-22 19:11:38,707 INFO    Thread-16 :6256 [dir_watcher.py:_on_file_created():278] file/dir created: C:\Users\owner\Desktop\python_workspace\shaders21k\cvae_training\wandb\run-20230522_190700-j9ga9ggs\files\media\images\examples_recon_1_8a389ac884c178d1fffd.png
+2023-05-22 19:11:38,707 INFO    Thread-16 :6256 [dir_watcher.py:_on_file_created():278] file/dir created: C:\Users\owner\Desktop\python_workspace\shaders21k\cvae_training\wandb\run-20230522_190700-j9ga9ggs\files\media\images\val_examples_gt_1_73a5a5dea6a02a578a92.png
+2023-05-22 19:11:38,707 INFO    Thread-16 :6256 [dir_watcher.py:_on_file_created():278] file/dir created: C:\Users\owner\Desktop\python_workspace\shaders21k\cvae_training\wandb\run-20230522_190700-j9ga9ggs\files\media\images\examples_gt_1_0c9ccd1532183fbe28c3.png
+2023-05-22 19:11:38,708 INFO    Thread-16 :6256 [dir_watcher.py:_on_file_created():278] file/dir created: C:\Users\owner\Desktop\python_workspace\shaders21k\cvae_training\wandb\run-20230522_190700-j9ga9ggs\files\media\images\val_examples_gt_1_ae9e4085d7670a683720.png
+2023-05-22 19:11:38,708 INFO    Thread-16 :6256 [dir_watcher.py:_on_file_created():278] file/dir created: C:\Users\owner\Desktop\python_workspace\shaders21k\cvae_training\wandb\run-20230522_190700-j9ga9ggs\files\media\images\examples_recon_1_21166b14a223633c8212.png
+2023-05-22 19:11:38,708 INFO    Thread-16 :6256 [dir_watcher.py:_on_file_created():278] file/dir created: C:\Users\owner\Desktop\python_workspace\shaders21k\cvae_training\wandb\run-20230522_190700-j9ga9ggs\files\media\images\examples_recon_1_62098aee67751a9f816d.png
+2023-05-22 19:11:38,708 INFO    Thread-16 :6256 [dir_watcher.py:_on_file_created():278] file/dir created: C:\Users\owner\Desktop\python_workspace\shaders21k\cvae_training\wandb\run-20230522_190700-j9ga9ggs\files\media\images\examples_gt_1_07a2aa17b5d01821d09a.png
+2023-05-22 19:11:38,708 INFO    Thread-16 :6256 [dir_watcher.py:_on_file_created():278] file/dir created: C:\Users\owner\Desktop\python_workspace\shaders21k\cvae_training\wandb\run-20230522_190700-j9ga9ggs\files\media\images\val_examples_recon_1_9ebc0dfa2e7867e8e212.png
+2023-05-22 19:11:38,709 INFO    Thread-16 :6256 [dir_watcher.py:_on_file_created():278] file/dir created: C:\Users\owner\Desktop\python_workspace\shaders21k\cvae_training\wandb\run-20230522_190700-j9ga9ggs\files\media\images\val_examples_recon_1_7f5d74f2943eff5f4063.png
+2023-05-22 19:11:38,709 INFO    Thread-16 :6256 [dir_watcher.py:_on_file_created():278] file/dir created: C:\Users\owner\Desktop\python_workspace\shaders21k\cvae_training\wandb\run-20230522_190700-j9ga9ggs\files\media\images\val_examples_recon_1_9138a867aa34ffa15e95.png
+2023-05-22 19:11:38,709 INFO    Thread-16 :6256 [dir_watcher.py:_on_file_created():278] file/dir created: C:\Users\owner\Desktop\python_workspace\shaders21k\cvae_training\wandb\run-20230522_190700-j9ga9ggs\files\media\images\val_examples_recon_1_c0fe7b2a6a4848b7829c.png
+2023-05-22 19:11:38,709 INFO    Thread-16 :6256 [dir_watcher.py:_on_file_created():278] file/dir created: C:\Users\owner\Desktop\python_workspace\shaders21k\cvae_training\wandb\run-20230522_190700-j9ga9ggs\files\media\images\val_examples_recon_1_8d26ff235f3a717812ca.png
+2023-05-22 19:11:38,710 INFO    Thread-16 :6256 [dir_watcher.py:_on_file_created():278] file/dir created: C:\Users\owner\Desktop\python_workspace\shaders21k\cvae_training\wandb\run-20230522_190700-j9ga9ggs\files\media\images\examples_recon_1_aea909bdc106f420f14a.png
+2023-05-22 19:11:38,710 INFO    Thread-16 :6256 [dir_watcher.py:_on_file_created():278] file/dir created: C:\Users\owner\Desktop\python_workspace\shaders21k\cvae_training\wandb\run-20230522_190700-j9ga9ggs\files\media\images\val_examples_gt_1_720cb08865010f1d17ee.png
+2023-05-22 19:11:38,710 INFO    Thread-16 :6256 [dir_watcher.py:_on_file_created():278] file/dir created: C:\Users\owner\Desktop\python_workspace\shaders21k\cvae_training\wandb\run-20230522_190700-j9ga9ggs\files\media\images\examples_gt_1_9369cdb75aa9fbd652d2.png
+2023-05-22 19:11:38,710 INFO    Thread-16 :6256 [dir_watcher.py:_on_file_created():278] file/dir created: C:\Users\owner\Desktop\python_workspace\shaders21k\cvae_training\wandb\run-20230522_190700-j9ga9ggs\files\media\images\val_examples_gt_1_b86f6466635759e33314.png
+2023-05-22 19:11:38,711 INFO    Thread-16 :6256 [dir_watcher.py:_on_file_created():278] file/dir created: C:\Users\owner\Desktop\python_workspace\shaders21k\cvae_training\wandb\run-20230522_190700-j9ga9ggs\files\media\images\val_examples_recon_1_79e539740ff7766cfaff.png
+2023-05-22 19:11:38,711 INFO    Thread-16 :6256 [dir_watcher.py:_on_file_created():278] file/dir created: C:\Users\owner\Desktop\python_workspace\shaders21k\cvae_training\wandb\run-20230522_190700-j9ga9ggs\files\media\images\examples_gt_1_444806e753a185a15e48.png
+2023-05-22 19:11:38,711 INFO    Thread-16 :6256 [dir_watcher.py:_on_file_created():278] file/dir created: C:\Users\owner\Desktop\python_workspace\shaders21k\cvae_training\wandb\run-20230522_190700-j9ga9ggs\files\media\images\examples_gt_1_3e49d015292ba7b4c1f8.png
+2023-05-22 19:11:38,711 INFO    Thread-16 :6256 [dir_watcher.py:_on_file_created():278] file/dir created: C:\Users\owner\Desktop\python_workspace\shaders21k\cvae_training\wandb\run-20230522_190700-j9ga9ggs\files\media\images\examples_gt_1_f49e795274c151dd8328.png
+2023-05-22 19:11:38,712 INFO    Thread-16 :6256 [dir_watcher.py:_on_file_created():278] file/dir created: C:\Users\owner\Desktop\python_workspace\shaders21k\cvae_training\wandb\run-20230522_190700-j9ga9ggs\files\media\images\val_examples_gt_1_ec31ff6910f40f8bd715.png
+2023-05-22 19:11:38,712 INFO    Thread-16 :6256 [dir_watcher.py:_on_file_created():278] file/dir created: C:\Users\owner\Desktop\python_workspace\shaders21k\cvae_training\wandb\run-20230522_190700-j9ga9ggs\files\media\images\examples_recon_1_5901ffde6abb7efd5a5d.png
+2023-05-22 19:11:38,712 INFO    Thread-16 :6256 [dir_watcher.py:_on_file_created():278] file/dir created: C:\Users\owner\Desktop\python_workspace\shaders21k\cvae_training\wandb\run-20230522_190700-j9ga9ggs\files\media\images\val_examples_recon_1_6bd2d0b5ff9d761fb1bd.png
+2023-05-22 19:11:38,712 INFO    Thread-16 :6256 [dir_watcher.py:_on_file_created():278] file/dir created: C:\Users\owner\Desktop\python_workspace\shaders21k\cvae_training\wandb\run-20230522_190700-j9ga9ggs\files\media\images\val_examples_gt_1_28f3dac63b36533a3f96.png
+2023-05-22 19:11:38,713 INFO    Thread-16 :6256 [dir_watcher.py:_on_file_created():278] file/dir created: C:\Users\owner\Desktop\python_workspace\shaders21k\cvae_training\wandb\run-20230522_190700-j9ga9ggs\files\media\images\val_examples_recon_1_aaa516a58275e5b62373.png
+2023-05-22 19:11:38,713 INFO    Thread-16 :6256 [dir_watcher.py:_on_file_created():278] file/dir created: C:\Users\owner\Desktop\python_workspace\shaders21k\cvae_training\wandb\run-20230522_190700-j9ga9ggs\files\media\images\val_examples_gt_1_dc0aac0d2cc4671a02a7.png
+2023-05-22 19:11:38,713 INFO    Thread-16 :6256 [dir_watcher.py:_on_file_created():278] file/dir created: C:\Users\owner\Desktop\python_workspace\shaders21k\cvae_training\wandb\run-20230522_190700-j9ga9ggs\files\media\images\examples_gt_1_0e5b4771debd26be65d4.png
+2023-05-22 19:11:38,713 INFO    Thread-16 :6256 [dir_watcher.py:_on_file_created():278] file/dir created: C:\Users\owner\Desktop\python_workspace\shaders21k\cvae_training\wandb\run-20230522_190700-j9ga9ggs\files\media\videos\video_1_e7532249b8ab713c9a7b.gif
+2023-05-22 19:11:38,714 INFO    Thread-16 :6256 [dir_watcher.py:_on_file_created():278] file/dir created: C:\Users\owner\Desktop\python_workspace\shaders21k\cvae_training\wandb\run-20230522_190700-j9ga9ggs\files\media\images\val_examples_gt_1_af58e9b8f47b6273bf68.png
+2023-05-22 19:11:38,714 INFO    Thread-16 :6256 [dir_watcher.py:_on_file_created():278] file/dir created: C:\Users\owner\Desktop\python_workspace\shaders21k\cvae_training\wandb\run-20230522_190700-j9ga9ggs\files\media\images\examples_gt_1_4008daf231351cbc7a68.png
+2023-05-22 19:11:38,714 INFO    Thread-16 :6256 [dir_watcher.py:_on_file_created():278] file/dir created: C:\Users\owner\Desktop\python_workspace\shaders21k\cvae_training\wandb\run-20230522_190700-j9ga9ggs\files\media\images\examples_recon_1_31b260d9eea8f661e1f8.png
+2023-05-22 19:11:38,714 INFO    Thread-16 :6256 [dir_watcher.py:_on_file_created():278] file/dir created: C:\Users\owner\Desktop\python_workspace\shaders21k\cvae_training\wandb\run-20230522_190700-j9ga9ggs\files\media\images\examples_recon_1_3fe5c56b968f089c6c46.png
+2023-05-22 19:11:38,714 INFO    Thread-16 :6256 [dir_watcher.py:_on_file_created():278] file/dir created: C:\Users\owner\Desktop\python_workspace\shaders21k\cvae_training\wandb\run-20230522_190700-j9ga9ggs\files\media\images\examples_recon_1_3195da1a55c2db38c2c8.png
+2023-05-22 19:11:38,715 INFO    Thread-16 :6256 [dir_watcher.py:_on_file_created():278] file/dir created: C:\Users\owner\Desktop\python_workspace\shaders21k\cvae_training\wandb\run-20230522_190700-j9ga9ggs\files\media\videos
+2023-05-22 19:11:38,715 INFO    Thread-16 :6256 [dir_watcher.py:_on_file_created():278] file/dir created: C:\Users\owner\Desktop\python_workspace\shaders21k\cvae_training\wandb\run-20230522_190700-j9ga9ggs\files\media
+2023-05-22 19:11:38,715 INFO    Thread-16 :6256 [dir_watcher.py:_on_file_created():278] file/dir created: C:\Users\owner\Desktop\python_workspace\shaders21k\cvae_training\wandb\run-20230522_190700-j9ga9ggs\files\media\images
+2023-05-22 19:11:38,910 INFO    wandb-upload_5:6256 [upload_job.py:push():137] Uploaded file C:\Users\owner\AppData\Local\Temp\tmp9oyadmwuwandb\c8gk0gxg-media/images/examples_gt_1_0c9ccd1532183fbe28c3.png
+2023-05-22 19:11:38,972 INFO    wandb-upload_18:6256 [upload_job.py:push():137] Uploaded file C:\Users\owner\AppData\Local\Temp\tmp9oyadmwuwandb\6tkzo7gg-media/images/examples_gt_1_0e5b4771debd26be65d4.png
+2023-05-22 19:11:39,003 INFO    wandb-upload_22:6256 [upload_job.py:push():137] Uploaded file C:\Users\owner\AppData\Local\Temp\tmp9oyadmwuwandb\9ih3eybn-media/images/examples_gt_1_4008daf231351cbc7a68.png
+2023-05-22 19:11:39,222 INFO    wandb-upload_10:6256 [upload_job.py:push():137] Uploaded file C:\Users\owner\AppData\Local\Temp\tmp9oyadmwuwandb\4e0unrrd-media/images/examples_recon_1_21166b14a223633c8212.png
+2023-05-22 19:11:39,233 INFO    wandb-upload_15:6256 [upload_job.py:push():137] Uploaded file C:\Users\owner\AppData\Local\Temp\tmp9oyadmwuwandb\9rt6rek1-media/images/examples_recon_1_3fe5c56b968f089c6c46.png
+2023-05-22 19:11:39,280 INFO    wandb-upload_17:6256 [upload_job.py:push():137] Uploaded file C:\Users\owner\AppData\Local\Temp\tmp9oyadmwuwandb\4kj6rfl5-media/images/examples_gt_1_444806e753a185a15e48.png
+2023-05-22 19:11:39,722 INFO    Thread-16 :6256 [dir_watcher.py:_on_file_modified():295] file/dir modified: C:\Users\owner\Desktop\python_workspace\shaders21k\cvae_training\wandb\run-20230522_190700-j9ga9ggs\files\output.log
+2023-05-22 19:11:39,946 INFO    wandb-upload_2:6256 [upload_job.py:push():137] Uploaded file C:\Users\owner\AppData\Local\Temp\tmp9oyadmwuwandb\po73vhmp-media/images/val_examples_gt_1_dc0aac0d2cc4671a02a7.png
+2023-05-22 19:11:39,981 INFO    wandb-upload_16:6256 [upload_job.py:push():137] Uploaded file C:\Users\owner\AppData\Local\Temp\tmp9oyadmwuwandb\5c7o810q-media/images/val_examples_gt_1_af58e9b8f47b6273bf68.png
+2023-05-22 19:11:39,988 INFO    wandb-upload_12:6256 [upload_job.py:push():137] Uploaded file C:\Users\owner\AppData\Local\Temp\tmp9oyadmwuwandb\2yzhtlih-media/images/val_examples_gt_1_ec31ff6910f40f8bd715.png
+2023-05-22 19:11:40,027 INFO    wandb-upload_21:6256 [upload_job.py:push():137] Uploaded file C:\Users\owner\AppData\Local\Temp\tmp9oyadmwuwandb\acx48zjk-media/images/val_examples_gt_1_73a5a5dea6a02a578a92.png
+2023-05-22 19:11:40,192 INFO    wandb-upload_0:6256 [upload_job.py:push():137] Uploaded file C:\Users\owner\AppData\Local\Temp\tmp9oyadmwuwandb\djc8l2kt-media/images/val_examples_gt_1_ae9e4085d7670a683720.png
+2023-05-22 19:11:40,216 INFO    wandb-upload_6:6256 [upload_job.py:push():137] Uploaded file C:\Users\owner\AppData\Local\Temp\tmp9oyadmwuwandb\gap2gcbn-media/images/val_examples_gt_1_b86f6466635759e33314.png
+2023-05-22 19:11:40,228 INFO    wandb-upload_37:6256 [upload_job.py:push():137] Uploaded file C:\Users\owner\AppData\Local\Temp\tmp9oyadmwuwandb\klmem289-media/images/val_examples_gt_1_720cb08865010f1d17ee.png
+2023-05-22 19:11:40,280 INFO    wandb-upload_9:6256 [upload_job.py:push():137] Uploaded file C:\Users\owner\AppData\Local\Temp\tmp9oyadmwuwandb\rvqrfmvi-media/images/val_examples_recon_1_7f5d74f2943eff5f4063.png
+2023-05-22 19:11:40,326 INFO    wandb-upload_28:6256 [upload_job.py:push():137] Uploaded file C:\Users\owner\AppData\Local\Temp\tmp9oyadmwuwandb\zcay2t4i-media/images/val_examples_recon_1_9138a867aa34ffa15e95.png
+2023-05-22 19:11:40,328 INFO    wandb-upload_20:6256 [upload_job.py:push():137] Uploaded file C:\Users\owner\AppData\Local\Temp\tmp9oyadmwuwandb\odh94fst-media/images/val_examples_gt_1_28f3dac63b36533a3f96.png
+2023-05-22 19:11:40,350 INFO    wandb-upload_23:6256 [upload_job.py:push():137] Uploaded file C:\Users\owner\AppData\Local\Temp\tmp9oyadmwuwandb\1w54y80m-media/images/examples_recon_1_62098aee67751a9f816d.png
+2023-05-22 19:11:40,362 INFO    wandb-upload_44:6256 [upload_job.py:push():137] Uploaded file C:\Users\owner\AppData\Local\Temp\tmp9oyadmwuwandb\uame2m7w-media/images/val_examples_recon_1_c0fe7b2a6a4848b7829c.png
+2023-05-22 19:11:40,370 INFO    wandb-upload_31:6256 [upload_job.py:push():137] Uploaded file C:\Users\owner\AppData\Local\Temp\tmp9oyadmwuwandb\btxm483t-media/images/examples_recon_1_3195da1a55c2db38c2c8.png
+2023-05-22 19:11:40,487 INFO    wandb-upload_25:6256 [upload_job.py:push():137] Uploaded file C:\Users\owner\AppData\Local\Temp\tmp9oyadmwuwandb\q8rb8ao3-media/images/examples_recon_1_5901ffde6abb7efd5a5d.png
+2023-05-22 19:11:40,505 INFO    wandb-upload_13:6256 [upload_job.py:push():137] Uploaded file C:\Users\owner\AppData\Local\Temp\tmp9oyadmwuwandb\cl11mnda-media/images/examples_recon_1_31b260d9eea8f661e1f8.png
+2023-05-22 19:11:40,538 INFO    wandb-upload_19:6256 [upload_job.py:push():137] Uploaded file C:\Users\owner\AppData\Local\Temp\tmp9oyadmwuwandb\sybhi45e-media/images/val_examples_recon_1_aaa516a58275e5b62373.png
+2023-05-22 19:11:40,541 INFO    wandb-upload_8:6256 [upload_job.py:push():137] Uploaded file C:\Users\owner\AppData\Local\Temp\tmp9oyadmwuwandb\amp5nx36-media/images/val_examples_recon_1_8d26ff235f3a717812ca.png
+2023-05-22 19:11:40,541 INFO    wandb-upload_26:6256 [upload_job.py:push():137] Uploaded file C:\Users\owner\AppData\Local\Temp\tmp9oyadmwuwandb\p77ore3c-media/images/examples_recon_1_aea909bdc106f420f14a.png
+2023-05-22 19:11:40,543 INFO    wandb-upload_27:6256 [upload_job.py:push():137] Uploaded file C:\Users\owner\AppData\Local\Temp\tmp9oyadmwuwandb\77uhnseb-media/images/examples_recon_1_8a389ac884c178d1fffd.png
+2023-05-22 19:11:40,544 INFO    wandb-upload_11:6256 [upload_job.py:push():137] Uploaded file C:\Users\owner\AppData\Local\Temp\tmp9oyadmwuwandb\eyspudqb-media/images/val_examples_recon_1_79e539740ff7766cfaff.png
+2023-05-22 19:11:40,585 INFO    wandb-upload_29:6256 [upload_job.py:push():137] Uploaded file C:\Users\owner\AppData\Local\Temp\tmp9oyadmwuwandb\mb5thw14-media/images/val_examples_recon_1_9ebc0dfa2e7867e8e212.png
+2023-05-22 19:11:40,587 INFO    wandb-upload_30:6256 [upload_job.py:push():137] Uploaded file C:\Users\owner\AppData\Local\Temp\tmp9oyadmwuwandb\hmh8dq0p-media/images/val_examples_recon_1_6bd2d0b5ff9d761fb1bd.png
+2023-05-22 19:11:43,535 DEBUG   HandlerThread:6256 [handler.py:handle_request():144] handle_request: status_report
+2023-05-22 19:11:48,543 DEBUG   HandlerThread:6256 [handler.py:handle_request():144] handle_request: status_report
+2023-05-22 19:11:48,642 DEBUG   HandlerThread:6256 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-22 19:11:48,642 DEBUG   SenderThread:6256 [sender.py:send_request():402] send_request: stop_status
+2023-05-22 19:11:54,022 INFO    wandb-upload_24:6256 [upload_job.py:push():137] Uploaded file C:\Users\owner\AppData\Local\Temp\tmp9oyadmwuwandb\9d5rha5t-media/videos/video_1_e7532249b8ab713c9a7b.gif
+2023-05-22 19:11:54,039 DEBUG   HandlerThread:6256 [handler.py:handle_request():144] handle_request: status_report
+2023-05-22 19:11:59,121 DEBUG   HandlerThread:6256 [handler.py:handle_request():144] handle_request: status_report
+2023-05-22 19:12:03,219 DEBUG   SenderThread:6256 [sender.py:send():375] send: stats
+2023-05-22 19:12:03,661 DEBUG   HandlerThread:6256 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-22 19:12:03,661 DEBUG   SenderThread:6256 [sender.py:send_request():402] send_request: stop_status
+2023-05-22 19:12:04,863 DEBUG   HandlerThread:6256 [handler.py:handle_request():144] handle_request: status_report
+2023-05-22 19:12:09,940 DEBUG   HandlerThread:6256 [handler.py:handle_request():144] handle_request: status_report
+2023-05-22 19:12:14,997 DEBUG   HandlerThread:6256 [handler.py:handle_request():144] handle_request: status_report
+2023-05-22 19:12:18,673 DEBUG   HandlerThread:6256 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-22 19:12:18,674 DEBUG   SenderThread:6256 [sender.py:send_request():402] send_request: stop_status
+2023-05-22 19:12:20,883 DEBUG   HandlerThread:6256 [handler.py:handle_request():144] handle_request: status_report
+2023-05-22 19:12:25,949 DEBUG   HandlerThread:6256 [handler.py:handle_request():144] handle_request: status_report
+2023-05-22 19:12:31,056 DEBUG   HandlerThread:6256 [handler.py:handle_request():144] handle_request: status_report
+2023-05-22 19:12:33,250 DEBUG   SenderThread:6256 [sender.py:send():375] send: stats
+2023-05-22 19:12:33,681 DEBUG   HandlerThread:6256 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-22 19:12:33,681 DEBUG   SenderThread:6256 [sender.py:send_request():402] send_request: stop_status
+2023-05-22 19:12:36,903 DEBUG   HandlerThread:6256 [handler.py:handle_request():144] handle_request: status_report
+2023-05-22 19:12:41,943 DEBUG   HandlerThread:6256 [handler.py:handle_request():144] handle_request: status_report
+2023-05-22 19:12:47,000 DEBUG   HandlerThread:6256 [handler.py:handle_request():144] handle_request: status_report
+2023-05-22 19:12:48,699 DEBUG   HandlerThread:6256 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-22 19:12:48,699 DEBUG   SenderThread:6256 [sender.py:send_request():402] send_request: stop_status
+2023-05-22 19:12:52,924 DEBUG   HandlerThread:6256 [handler.py:handle_request():144] handle_request: status_report
+2023-05-22 19:12:57,982 DEBUG   HandlerThread:6256 [handler.py:handle_request():144] handle_request: status_report
+2023-05-22 19:13:03,020 DEBUG   HandlerThread:6256 [handler.py:handle_request():144] handle_request: status_report
+2023-05-22 19:13:03,258 DEBUG   SenderThread:6256 [sender.py:send():375] send: stats
+2023-05-22 19:13:03,706 DEBUG   HandlerThread:6256 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-22 19:13:03,707 DEBUG   SenderThread:6256 [sender.py:send_request():402] send_request: stop_status
+2023-05-22 19:13:08,946 DEBUG   HandlerThread:6256 [handler.py:handle_request():144] handle_request: status_report
+2023-05-22 19:13:13,990 DEBUG   HandlerThread:6256 [handler.py:handle_request():144] handle_request: status_report
+2023-05-22 19:13:18,721 DEBUG   HandlerThread:6256 [handler.py:handle_request():144] handle_request: stop_status
+2023-05-22 19:13:18,722 DEBUG   SenderThread:6256 [sender.py:send_request():402] send_request: stop_status
+2023-05-22 19:13:19,908 DEBUG   HandlerThread:6256 [handler.py:handle_request():144] handle_request: status_report
+2023-05-22 19:13:24,944 DEBUG   HandlerThread:6256 [handler.py:handle_request():144] handle_request: status_report
+2023-05-22 19:13:29,981 DEBUG   HandlerThread:6256 [handler.py:handle_request():144] handle_request: status_report
+2023-05-22 19:13:30,595 DEBUG   SenderThread:6256 [sender.py:send():375] send: files
+2023-05-22 19:13:30,595 INFO    SenderThread:6256 [sender.py:_save_file():1378] saving file media\images\test_examples_gt_2_3ceae1e6268b2774a564.png with policy now
+2023-05-22 19:13:30,602 DEBUG   SenderThread:6256 [sender.py:send():375] send: files
+2023-05-22 19:13:30,602 INFO    SenderThread:6256 [sender.py:_save_file():1378] saving file media\images\test_examples_gt_2_aca033af5ad7a71b925f.png with policy now
+2023-05-22 19:13:30,605 DEBUG   SenderThread:6256 [sender.py:send():375] send: files
+2023-05-22 19:13:30,606 INFO    SenderThread:6256 [sender.py:_save_file():1378] saving file media\images\test_examples_gt_2_fd166d1a84328686fa70.png with policy now
+2023-05-22 19:13:30,610 DEBUG   SenderThread:6256 [sender.py:send():375] send: files
+2023-05-22 19:13:30,611 INFO    SenderThread:6256 [sender.py:_save_file():1378] saving file media\images\test_examples_gt_2_bce7f0d155605f0e83d6.png with policy now
+2023-05-22 19:13:30,616 DEBUG   SenderThread:6256 [sender.py:send():375] send: files
+2023-05-22 19:13:30,616 INFO    SenderThread:6256 [sender.py:_save_file():1378] saving file media\images\test_examples_gt_2_4ab8fe10d559f2367595.png with policy now
+2023-05-22 19:13:30,621 DEBUG   SenderThread:6256 [sender.py:send():375] send: files
+2023-05-22 19:13:30,621 INFO    SenderThread:6256 [sender.py:_save_file():1378] saving file media\images\test_examples_gt_2_4e7c5e3fa2347d809867.png with policy now
+2023-05-22 19:13:30,626 DEBUG   SenderThread:6256 [sender.py:send():375] send: files
+2023-05-22 19:13:30,626 INFO    SenderThread:6256 [sender.py:_save_file():1378] saving file media\images\test_examples_gt_2_5c965e41a1b478ab1214.png with policy now
+2023-05-22 19:13:30,632 DEBUG   SenderThread:6256 [sender.py:send():375] send: files
+2023-05-22 19:13:30,633 INFO    SenderThread:6256 [sender.py:_save_file():1378] saving file media\images\test_examples_gt_2_883941fb51c8e5d97d27.png with policy now
+2023-05-22 19:13:30,657 DEBUG   SenderThread:6256 [sender.py:send():375] send: files
+2023-05-22 19:13:30,658 INFO    SenderThread:6256 [sender.py:_save_file():1378] saving file media\images\test_examples_recon_2_260e5142eb1eea25b733.png with policy now
+2023-05-22 19:13:30,665 DEBUG   SenderThread:6256 [sender.py:send():375] send: files
+2023-05-22 19:13:30,665 INFO    SenderThread:6256 [sender.py:_save_file():1378] saving file media\images\test_examples_recon_2_b18ec0e5d24c5e4e47c0.png with policy now
+2023-05-22 19:13:30,667 DEBUG   SenderThread:6256 [sender.py:send():375] send: files
+2023-05-22 19:13:30,667 INFO    SenderThread:6256 [sender.py:_save_file():1378] saving file media\images\test_examples_recon_2_471406020e9d5fca252f.png with policy now
+2023-05-22 19:13:30,673 DEBUG   SenderThread:6256 [sender.py:send():375] send: files
+2023-05-22 19:13:30,673 INFO    SenderThread:6256 [sender.py:_save_file():1378] saving file media\images\test_examples_recon_2_86ba70a5da8b4be4ad49.png with policy now
+2023-05-22 19:13:30,679 DEBUG   SenderThread:6256 [sender.py:send():375] send: files
+2023-05-22 19:13:30,679 INFO    SenderThread:6256 [sender.py:_save_file():1378] saving file media\images\test_examples_recon_2_cfc3482dad2a50e3f3a5.png with policy now
+2023-05-22 19:13:30,683 DEBUG   SenderThread:6256 [sender.py:send():375] send: files
+2023-05-22 19:13:30,684 INFO    SenderThread:6256 [sender.py:_save_file():1378] saving file media\images\test_examples_recon_2_aa2b0c62e4a46fd18587.png with policy now
+2023-05-22 19:13:30,690 DEBUG   SenderThread:6256 [sender.py:send():375] send: files
+2023-05-22 19:13:30,690 INFO    SenderThread:6256 [sender.py:_save_file():1378] saving file media\images\test_examples_recon_2_784f4ff328e9ddce21c8.png with policy now
+2023-05-22 19:13:30,695 DEBUG   SenderThread:6256 [sender.py:send():375] send: files
+2023-05-22 19:13:30,695 INFO    SenderThread:6256 [sender.py:_save_file():1378] saving file media\images\test_examples_recon_2_6bfa150ca6d624fafa93.png with policy now
+2023-05-22 19:13:30,718 DEBUG   SenderThread:6256 [sender.py:send():375] send: files
+2023-05-22 19:13:30,718 INFO    SenderThread:6256 [sender.py:_save_file():1378] saving file media\videos\video_2_893ddac1112a6ed874fa.gif with policy now
+2023-05-22 19:13:30,726 DEBUG   SenderThread:6256 [sender.py:send():375] send: files
+2023-05-22 19:13:30,727 INFO    SenderThread:6256 [sender.py:_save_file():1378] saving file media\images\unconditional_sampling_2_83fb8ccb911ab82588a7.png with policy now
+2023-05-22 19:13:30,733 DEBUG   SenderThread:6256 [sender.py:send():375] send: files
+2023-05-22 19:13:30,734 INFO    SenderThread:6256 [sender.py:_save_file():1378] saving file media\images\unconditional_sampling_2_15d3e313bd7929fa6098.png with policy now
+2023-05-22 19:13:30,739 DEBUG   SenderThread:6256 [sender.py:send():375] send: files
+2023-05-22 19:13:30,740 INFO    SenderThread:6256 [sender.py:_save_file():1378] saving file media\images\unconditional_sampling_2_cbdf3dec62a0b9dfe094.png with policy now
+2023-05-22 19:13:30,750 DEBUG   SenderThread:6256 [sender.py:send():375] send: files
+2023-05-22 19:13:30,750 INFO    SenderThread:6256 [sender.py:_save_file():1378] saving file media\images\unconditional_sampling_2_bac0711e5c8f744eec31.png with policy now
+2023-05-22 19:13:30,752 DEBUG   SenderThread:6256 [sender.py:send():375] send: files
+2023-05-22 19:13:30,752 INFO    SenderThread:6256 [sender.py:_save_file():1378] saving file media\images\unconditional_sampling_2_aaf40955851184962713.png with policy now
+2023-05-22 19:13:30,757 DEBUG   SenderThread:6256 [sender.py:send():375] send: files
+2023-05-22 19:13:30,757 INFO    SenderThread:6256 [sender.py:_save_file():1378] saving file media\images\unconditional_sampling_2_61cf683d46116e9e7186.png with policy now
+2023-05-22 19:13:30,762 DEBUG   SenderThread:6256 [sender.py:send():375] send: files
+2023-05-22 19:13:30,762 INFO    SenderThread:6256 [sender.py:_save_file():1378] saving file media\images\unconditional_sampling_2_5ed77516418158e0cae8.png with policy now
+2023-05-22 19:13:30,768 DEBUG   SenderThread:6256 [sender.py:send():375] send: files
+2023-05-22 19:13:30,768 INFO    SenderThread:6256 [sender.py:_save_file():1378] saving file media\images\unconditional_sampling_2_df2a23ceefdfb32954fb.png with policy now
+2023-05-22 19:13:30,800 DEBUG   HandlerThread:6256 [handler.py:handle_request():144] handle_request: partial_history
+2023-05-22 19:13:30,801 DEBUG   SenderThread:6256 [sender.py:send():375] send: history
+2023-05-22 19:13:30,802 DEBUG   SenderThread:6256 [sender.py:send_request():402] send_request: summary_record
+2023-05-22 19:13:30,803 INFO    SenderThread:6256 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-22 19:13:30,808 DEBUG   SenderThread:6256 [sender.py:send():375] send: telemetry
+2023-05-22 19:13:30,824 DEBUG   SenderThread:6256 [sender.py:send():375] send: exit
+2023-05-22 19:13:30,825 INFO    SenderThread:6256 [sender.py:send_exit():598] handling exit code: 0
+2023-05-22 19:13:30,825 INFO    SenderThread:6256 [sender.py:send_exit():600] handling runtime: 387
+2023-05-22 19:13:30,826 INFO    SenderThread:6256 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-22 19:13:30,826 INFO    SenderThread:6256 [sender.py:send_exit():606] send defer
+2023-05-22 19:13:30,826 DEBUG   HandlerThread:6256 [handler.py:handle_request():144] handle_request: defer
+2023-05-22 19:13:30,826 INFO    HandlerThread:6256 [handler.py:handle_request_defer():170] handle defer: 0
+2023-05-22 19:13:30,826 DEBUG   SenderThread:6256 [sender.py:send_request():402] send_request: defer
+2023-05-22 19:13:30,826 INFO    SenderThread:6256 [sender.py:send_request_defer():622] handle sender defer: 0
+2023-05-22 19:13:30,827 INFO    SenderThread:6256 [sender.py:transition_state():626] send defer: 1
+2023-05-22 19:13:30,827 DEBUG   HandlerThread:6256 [handler.py:handle_request():144] handle_request: defer
+2023-05-22 19:13:30,827 INFO    HandlerThread:6256 [handler.py:handle_request_defer():170] handle defer: 1
+2023-05-22 19:13:30,827 DEBUG   SenderThread:6256 [sender.py:send_request():402] send_request: defer
+2023-05-22 19:13:30,827 INFO    SenderThread:6256 [sender.py:send_request_defer():622] handle sender defer: 1
+2023-05-22 19:13:30,827 INFO    SenderThread:6256 [sender.py:transition_state():626] send defer: 2
+2023-05-22 19:13:30,827 DEBUG   HandlerThread:6256 [handler.py:handle_request():144] handle_request: defer
+2023-05-22 19:13:30,827 INFO    HandlerThread:6256 [handler.py:handle_request_defer():170] handle defer: 2
+2023-05-22 19:13:30,827 INFO    HandlerThread:6256 [system_monitor.py:finish():190] Stopping system monitor
+2023-05-22 19:13:30,827 DEBUG   SystemMonitor:6256 [system_monitor.py:_start():166] Finished system metrics aggregation loop
+2023-05-22 19:13:30,828 INFO    HandlerThread:6256 [interfaces.py:finish():202] Joined cpu monitor
+2023-05-22 19:13:30,828 DEBUG   SystemMonitor:6256 [system_monitor.py:_start():170] Publishing last batch of metrics
+2023-05-22 19:13:30,828 INFO    HandlerThread:6256 [interfaces.py:finish():202] Joined disk monitor
+2023-05-22 19:13:30,828 INFO    HandlerThread:6256 [interfaces.py:finish():202] Joined memory monitor
+2023-05-22 19:13:30,829 INFO    HandlerThread:6256 [interfaces.py:finish():202] Joined network monitor
+2023-05-22 19:13:30,829 DEBUG   SenderThread:6256 [sender.py:send_request():402] send_request: defer
+2023-05-22 19:13:30,829 INFO    SenderThread:6256 [sender.py:send_request_defer():622] handle sender defer: 2
+2023-05-22 19:13:30,829 INFO    SenderThread:6256 [sender.py:transition_state():626] send defer: 3
+2023-05-22 19:13:30,829 DEBUG   SenderThread:6256 [sender.py:send():375] send: stats
+2023-05-22 19:13:30,829 DEBUG   HandlerThread:6256 [handler.py:handle_request():144] handle_request: defer
+2023-05-22 19:13:30,830 INFO    HandlerThread:6256 [handler.py:handle_request_defer():170] handle defer: 3
+2023-05-22 19:13:30,831 DEBUG   SenderThread:6256 [sender.py:send_request():402] send_request: defer
+2023-05-22 19:13:30,831 INFO    SenderThread:6256 [sender.py:send_request_defer():622] handle sender defer: 3
+2023-05-22 19:13:30,831 INFO    SenderThread:6256 [sender.py:transition_state():626] send defer: 4
+2023-05-22 19:13:30,832 DEBUG   HandlerThread:6256 [handler.py:handle_request():144] handle_request: defer
+2023-05-22 19:13:30,833 INFO    HandlerThread:6256 [handler.py:handle_request_defer():170] handle defer: 4
+2023-05-22 19:13:30,834 DEBUG   SenderThread:6256 [sender.py:send_request():402] send_request: defer
+2023-05-22 19:13:30,834 INFO    SenderThread:6256 [sender.py:send_request_defer():622] handle sender defer: 4
+2023-05-22 19:13:30,834 INFO    SenderThread:6256 [sender.py:transition_state():626] send defer: 5
+2023-05-22 19:13:30,835 DEBUG   HandlerThread:6256 [handler.py:handle_request():144] handle_request: defer
+2023-05-22 19:13:30,835 INFO    HandlerThread:6256 [handler.py:handle_request_defer():170] handle defer: 5
+2023-05-22 19:13:30,837 DEBUG   SenderThread:6256 [sender.py:send():375] send: summary
+2023-05-22 19:13:30,840 INFO    SenderThread:6256 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-05-22 19:13:30,841 DEBUG   SenderThread:6256 [sender.py:send_request():402] send_request: defer
+2023-05-22 19:13:30,842 INFO    SenderThread:6256 [sender.py:send_request_defer():622] handle sender defer: 5
+2023-05-22 19:13:30,842 INFO    SenderThread:6256 [sender.py:transition_state():626] send defer: 6
+2023-05-22 19:13:30,843 DEBUG   HandlerThread:6256 [handler.py:handle_request():144] handle_request: defer
+2023-05-22 19:13:30,843 INFO    HandlerThread:6256 [handler.py:handle_request_defer():170] handle defer: 6
+2023-05-22 19:13:30,844 DEBUG   SenderThread:6256 [sender.py:send_request():402] send_request: defer
+2023-05-22 19:13:30,844 INFO    SenderThread:6256 [sender.py:send_request_defer():622] handle sender defer: 6
+2023-05-22 19:13:30,848 DEBUG   HandlerThread:6256 [handler.py:handle_request():144] handle_request: status_report
+2023-05-22 19:13:31,113 INFO    SenderThread:6256 [sender.py:transition_state():626] send defer: 7
+2023-05-22 19:13:31,132 DEBUG   HandlerThread:6256 [handler.py:handle_request():144] handle_request: defer
+2023-05-22 19:13:31,132 INFO    HandlerThread:6256 [handler.py:handle_request_defer():170] handle defer: 7
+2023-05-22 19:13:31,133 DEBUG   SenderThread:6256 [sender.py:send_request():402] send_request: defer
+2023-05-22 19:13:31,133 INFO    SenderThread:6256 [sender.py:send_request_defer():622] handle sender defer: 7
+2023-05-22 19:13:31,252 INFO    wandb-upload_51:6256 [upload_job.py:push():137] Uploaded file C:\Users\owner\AppData\Local\Temp\tmp9oyadmwuwandb\7r8jipob-media/images/test_examples_gt_2_aca033af5ad7a71b925f.png
+2023-05-22 19:13:31,278 INFO    wandb-upload_35:6256 [upload_job.py:push():137] Uploaded file C:\Users\owner\AppData\Local\Temp\tmp9oyadmwuwandb\4ed3wgt6-media/images/test_examples_gt_2_fd166d1a84328686fa70.png
+2023-05-22 19:13:31,288 INFO    wandb-upload_53:6256 [upload_job.py:push():137] Uploaded file C:\Users\owner\AppData\Local\Temp\tmp9oyadmwuwandb\525v7qp9-media/images/test_examples_gt_2_bce7f0d155605f0e83d6.png
+2023-05-22 19:13:31,309 INFO    wandb-upload_39:6256 [upload_job.py:push():137] Uploaded file C:\Users\owner\AppData\Local\Temp\tmp9oyadmwuwandb\8b3lbvq4-media/images/test_examples_gt_2_5c965e41a1b478ab1214.png
+2023-05-22 19:13:31,332 INFO    wandb-upload_40:6256 [upload_job.py:push():137] Uploaded file C:\Users\owner\AppData\Local\Temp\tmp9oyadmwuwandb\p3ckp0yh-media/images/test_examples_gt_2_883941fb51c8e5d97d27.png
+2023-05-22 19:13:31,459 INFO    wandb-upload_55:6256 [upload_job.py:push():137] Uploaded file C:\Users\owner\AppData\Local\Temp\tmp9oyadmwuwandb\anjzbbaw-media/images/test_examples_gt_2_4e7c5e3fa2347d809867.png
+2023-05-22 19:13:31,484 INFO    wandb-upload_7:6256 [upload_job.py:push():137] Uploaded file C:\Users\owner\AppData\Local\Temp\tmp9oyadmwuwandb\e9v6gizv-media/images/test_examples_gt_2_4ab8fe10d559f2367595.png
+2023-05-22 19:13:31,538 INFO    Thread-16 :6256 [dir_watcher.py:_on_file_modified():295] file/dir modified: C:\Users\owner\Desktop\python_workspace\shaders21k\cvae_training\wandb\run-20230522_190700-j9ga9ggs\files\config.yaml
+2023-05-22 19:13:31,538 INFO    Thread-16 :6256 [dir_watcher.py:_on_file_modified():295] file/dir modified: C:\Users\owner\Desktop\python_workspace\shaders21k\cvae_training\wandb\run-20230522_190700-j9ga9ggs\files\wandb-summary.json
+2023-05-22 19:13:31,538 INFO    Thread-16 :6256 [dir_watcher.py:_on_file_created():278] file/dir created: C:\Users\owner\Desktop\python_workspace\shaders21k\cvae_training\wandb\run-20230522_190700-j9ga9ggs\files\media\images\test_examples_gt_2_bce7f0d155605f0e83d6.png
+2023-05-22 19:13:31,538 INFO    Thread-16 :6256 [dir_watcher.py:_on_file_created():278] file/dir created: C:\Users\owner\Desktop\python_workspace\shaders21k\cvae_training\wandb\run-20230522_190700-j9ga9ggs\files\media\images\unconditional_sampling_2_aaf40955851184962713.png
+2023-05-22 19:13:31,539 INFO    Thread-16 :6256 [dir_watcher.py:_on_file_created():278] file/dir created: C:\Users\owner\Desktop\python_workspace\shaders21k\cvae_training\wandb\run-20230522_190700-j9ga9ggs\files\media\images\test_examples_recon_2_86ba70a5da8b4be4ad49.png
+2023-05-22 19:13:31,539 INFO    Thread-16 :6256 [dir_watcher.py:_on_file_created():278] file/dir created: C:\Users\owner\Desktop\python_workspace\shaders21k\cvae_training\wandb\run-20230522_190700-j9ga9ggs\files\media\images\unconditional_sampling_2_cbdf3dec62a0b9dfe094.png
+2023-05-22 19:13:31,539 INFO    Thread-16 :6256 [dir_watcher.py:_on_file_created():278] file/dir created: C:\Users\owner\Desktop\python_workspace\shaders21k\cvae_training\wandb\run-20230522_190700-j9ga9ggs\files\media\images\test_examples_gt_2_883941fb51c8e5d97d27.png
+2023-05-22 19:13:31,539 INFO    Thread-16 :6256 [dir_watcher.py:_on_file_created():278] file/dir created: C:\Users\owner\Desktop\python_workspace\shaders21k\cvae_training\wandb\run-20230522_190700-j9ga9ggs\files\media\images\test_examples_recon_2_aa2b0c62e4a46fd18587.png
+2023-05-22 19:13:31,540 INFO    Thread-16 :6256 [dir_watcher.py:_on_file_created():278] file/dir created: C:\Users\owner\Desktop\python_workspace\shaders21k\cvae_training\wandb\run-20230522_190700-j9ga9ggs\files\media\images\test_examples_gt_2_3ceae1e6268b2774a564.png
+2023-05-22 19:13:31,540 INFO    Thread-16 :6256 [dir_watcher.py:_on_file_created():278] file/dir created: C:\Users\owner\Desktop\python_workspace\shaders21k\cvae_training\wandb\run-20230522_190700-j9ga9ggs\files\media\images\test_examples_recon_2_471406020e9d5fca252f.png
+2023-05-22 19:13:31,540 INFO    Thread-16 :6256 [dir_watcher.py:_on_file_created():278] file/dir created: C:\Users\owner\Desktop\python_workspace\shaders21k\cvae_training\wandb\run-20230522_190700-j9ga9ggs\files\media\images\test_examples_gt_2_5c965e41a1b478ab1214.png
+2023-05-22 19:13:31,540 INFO    Thread-16 :6256 [dir_watcher.py:_on_file_created():278] file/dir created: C:\Users\owner\Desktop\python_workspace\shaders21k\cvae_training\wandb\run-20230522_190700-j9ga9ggs\files\media\images\test_examples_recon_2_b18ec0e5d24c5e4e47c0.png
+2023-05-22 19:13:31,540 INFO    Thread-16 :6256 [dir_watcher.py:_on_file_created():278] file/dir created: C:\Users\owner\Desktop\python_workspace\shaders21k\cvae_training\wandb\run-20230522_190700-j9ga9ggs\files\media\images\test_examples_gt_2_aca033af5ad7a71b925f.png
+2023-05-22 19:13:31,541 INFO    Thread-16 :6256 [dir_watcher.py:_on_file_created():278] file/dir created: C:\Users\owner\Desktop\python_workspace\shaders21k\cvae_training\wandb\run-20230522_190700-j9ga9ggs\files\media\images\unconditional_sampling_2_61cf683d46116e9e7186.png
+2023-05-22 19:13:31,541 INFO    Thread-16 :6256 [dir_watcher.py:_on_file_created():278] file/dir created: C:\Users\owner\Desktop\python_workspace\shaders21k\cvae_training\wandb\run-20230522_190700-j9ga9ggs\files\media\images\unconditional_sampling_2_15d3e313bd7929fa6098.png
+2023-05-22 19:13:31,541 INFO    Thread-16 :6256 [dir_watcher.py:_on_file_created():278] file/dir created: C:\Users\owner\Desktop\python_workspace\shaders21k\cvae_training\wandb\run-20230522_190700-j9ga9ggs\files\media\videos\video_2_893ddac1112a6ed874fa.gif
+2023-05-22 19:13:31,541 INFO    Thread-16 :6256 [dir_watcher.py:_on_file_created():278] file/dir created: C:\Users\owner\Desktop\python_workspace\shaders21k\cvae_training\wandb\run-20230522_190700-j9ga9ggs\files\media\images\test_examples_recon_2_6bfa150ca6d624fafa93.png
+2023-05-22 19:13:31,542 INFO    Thread-16 :6256 [dir_watcher.py:_on_file_created():278] file/dir created: C:\Users\owner\Desktop\python_workspace\shaders21k\cvae_training\wandb\run-20230522_190700-j9ga9ggs\files\media\images\unconditional_sampling_2_df2a23ceefdfb32954fb.png
+2023-05-22 19:13:31,542 INFO    Thread-16 :6256 [dir_watcher.py:_on_file_created():278] file/dir created: C:\Users\owner\Desktop\python_workspace\shaders21k\cvae_training\wandb\run-20230522_190700-j9ga9ggs\files\media\images\test_examples_recon_2_260e5142eb1eea25b733.png
+2023-05-22 19:13:31,542 INFO    Thread-16 :6256 [dir_watcher.py:_on_file_created():278] file/dir created: C:\Users\owner\Desktop\python_workspace\shaders21k\cvae_training\wandb\run-20230522_190700-j9ga9ggs\files\media\images\unconditional_sampling_2_bac0711e5c8f744eec31.png
+2023-05-22 19:13:31,542 INFO    Thread-16 :6256 [dir_watcher.py:_on_file_created():278] file/dir created: C:\Users\owner\Desktop\python_workspace\shaders21k\cvae_training\wandb\run-20230522_190700-j9ga9ggs\files\media\images\test_examples_recon_2_784f4ff328e9ddce21c8.png
+2023-05-22 19:13:31,542 INFO    Thread-16 :6256 [dir_watcher.py:_on_file_created():278] file/dir created: C:\Users\owner\Desktop\python_workspace\shaders21k\cvae_training\wandb\run-20230522_190700-j9ga9ggs\files\media\images\unconditional_sampling_2_83fb8ccb911ab82588a7.png
+2023-05-22 19:13:31,543 INFO    Thread-16 :6256 [dir_watcher.py:_on_file_created():278] file/dir created: C:\Users\owner\Desktop\python_workspace\shaders21k\cvae_training\wandb\run-20230522_190700-j9ga9ggs\files\media\images\unconditional_sampling_2_5ed77516418158e0cae8.png
+2023-05-22 19:13:31,543 INFO    Thread-16 :6256 [dir_watcher.py:_on_file_created():278] file/dir created: C:\Users\owner\Desktop\python_workspace\shaders21k\cvae_training\wandb\run-20230522_190700-j9ga9ggs\files\media\images\test_examples_gt_2_4ab8fe10d559f2367595.png
+2023-05-22 19:13:31,543 INFO    Thread-16 :6256 [dir_watcher.py:_on_file_created():278] file/dir created: C:\Users\owner\Desktop\python_workspace\shaders21k\cvae_training\wandb\run-20230522_190700-j9ga9ggs\files\media\images\test_examples_gt_2_fd166d1a84328686fa70.png
+2023-05-22 19:13:31,543 INFO    Thread-16 :6256 [dir_watcher.py:_on_file_created():278] file/dir created: C:\Users\owner\Desktop\python_workspace\shaders21k\cvae_training\wandb\run-20230522_190700-j9ga9ggs\files\media\images\test_examples_recon_2_cfc3482dad2a50e3f3a5.png
+2023-05-22 19:13:31,544 INFO    Thread-16 :6256 [dir_watcher.py:_on_file_created():278] file/dir created: C:\Users\owner\Desktop\python_workspace\shaders21k\cvae_training\wandb\run-20230522_190700-j9ga9ggs\files\media\images\test_examples_gt_2_4e7c5e3fa2347d809867.png
+2023-05-22 19:13:31,544 INFO    Thread-16 :6256 [dir_watcher.py:_on_file_modified():295] file/dir modified: C:\Users\owner\Desktop\python_workspace\shaders21k\cvae_training\wandb\run-20230522_190700-j9ga9ggs\files\media\images
+2023-05-22 19:13:31,544 INFO    Thread-16 :6256 [dir_watcher.py:_on_file_modified():295] file/dir modified: C:\Users\owner\Desktop\python_workspace\shaders21k\cvae_training\wandb\run-20230522_190700-j9ga9ggs\files\media\videos
+2023-05-22 19:13:31,677 INFO    wandb-upload_32:6256 [upload_job.py:push():137] Uploaded file C:\Users\owner\AppData\Local\Temp\tmp9oyadmwuwandb\etpc9rtv-media/images/test_examples_gt_2_3ceae1e6268b2774a564.png
+2023-05-22 19:13:31,693 INFO    wandb-upload_41:6256 [upload_job.py:push():137] Uploaded file C:\Users\owner\AppData\Local\Temp\tmp9oyadmwuwandb\k1joxo2n-media/images/test_examples_recon_2_260e5142eb1eea25b733.png
+2023-05-22 19:13:31,826 DEBUG   HandlerThread:6256 [handler.py:handle_request():144] handle_request: poll_exit
+2023-05-22 19:13:31,858 INFO    SenderThread:6256 [sender.py:transition_state():626] send defer: 8
+2023-05-22 19:13:31,858 DEBUG   SenderThread:6256 [sender.py:send_request():402] send_request: poll_exit
+2023-05-22 19:13:31,858 DEBUG   HandlerThread:6256 [handler.py:handle_request():144] handle_request: defer
+2023-05-22 19:13:31,859 INFO    HandlerThread:6256 [handler.py:handle_request_defer():170] handle defer: 8
+2023-05-22 19:13:31,859 DEBUG   SenderThread:6256 [sender.py:send_request():402] send_request: defer
+2023-05-22 19:13:31,859 INFO    SenderThread:6256 [sender.py:send_request_defer():622] handle sender defer: 8
+2023-05-22 19:13:31,882 INFO    SenderThread:6256 [sender.py:transition_state():626] send defer: 9
+2023-05-22 19:13:31,883 DEBUG   HandlerThread:6256 [handler.py:handle_request():144] handle_request: defer
+2023-05-22 19:13:31,883 DEBUG   SenderThread:6256 [sender.py:send():375] send: artifact
+2023-05-22 19:13:31,883 INFO    HandlerThread:6256 [handler.py:handle_request_defer():170] handle defer: 9
+2023-05-22 19:13:31,890 INFO    wandb-upload_42:6256 [upload_job.py:push():137] Uploaded file C:\Users\owner\AppData\Local\Temp\tmp9oyadmwuwandb\g3fnww1b-media/images/test_examples_recon_2_b18ec0e5d24c5e4e47c0.png
+2023-05-22 19:13:32,202 INFO    wandb-upload_14:6256 [upload_job.py:push():137] Uploaded file C:\Users\owner\AppData\Local\Temp\tmp9oyadmwuwandb\s4n6ikxl-media/images/test_examples_recon_2_86ba70a5da8b4be4ad49.png
+2023-05-22 19:13:32,244 INFO    wandb-upload_21:6256 [upload_job.py:push():137] Uploaded file C:\Users\owner\AppData\Local\Temp\tmp9oyadmwuwandb\sfscilmg-media/images/unconditional_sampling_2_61cf683d46116e9e7186.png
+2023-05-22 19:13:32,260 INFO    wandb-upload_4:6256 [upload_job.py:push():137] Uploaded file C:\Users\owner\AppData\Local\Temp\tmp9oyadmwuwandb\ojuiqpgy-media/images/unconditional_sampling_2_83fb8ccb911ab82588a7.png
+2023-05-22 19:13:32,261 INFO    wandb-upload_6:6256 [upload_job.py:push():137] Uploaded file C:\Users\owner\AppData\Local\Temp\tmp9oyadmwuwandb\gmhus56q-media/images/unconditional_sampling_2_5ed77516418158e0cae8.png
+2023-05-22 19:13:32,273 INFO    wandb-upload_18:6256 [upload_job.py:push():137] Uploaded file C:\Users\owner\AppData\Local\Temp\tmp9oyadmwuwandb\ujvxld53-media/images/unconditional_sampling_2_15d3e313bd7929fa6098.png
+2023-05-22 19:13:32,290 INFO    wandb-upload_10:6256 [upload_job.py:push():137] Uploaded file C:\Users\owner\AppData\Local\Temp\tmp9oyadmwuwandb\hautgak6-media/images/unconditional_sampling_2_cbdf3dec62a0b9dfe094.png
+2023-05-22 19:13:32,543 INFO    Thread-16 :6256 [dir_watcher.py:_on_file_modified():295] file/dir modified: C:\Users\owner\Desktop\python_workspace\shaders21k\cvae_training\wandb\run-20230522_190700-j9ga9ggs\files\output.log
+2023-05-22 19:13:32,836 DEBUG   HandlerThread:6256 [handler.py:handle_request():144] handle_request: poll_exit
+2023-05-22 19:13:33,047 INFO    wandb-upload_46:6256 [upload_job.py:push():137] Uploaded file C:\Users\owner\AppData\Local\Temp\tmp9oyadmwuwandb\p6d079r5-media/images/test_examples_recon_2_aa2b0c62e4a46fd18587.png
+2023-05-22 19:13:33,053 INFO    SenderThread:6256 [sender.py:send_artifact():1474] sent artifact job-https___github.com_suddenlyAstral_shaders_internal.git_cvae_training_main.py - {'id': 'QXJ0aWZhY3Q6NDYyMzI3MTI1', 'digest': '6468b26b193761d1b7761b9cda160300', 'state': 'COMMITTED', 'aliases': [{'artifactCollectionName': 'job-https___github.com_suddenlyAstral_shaders_internal.git_cvae_training_main.py', 'alias': 'latest'}, {'artifactCollectionName': 'job-https___github.com_suddenlyAstral_shaders_internal.git_cvae_training_main.py', 'alias': 'v94'}], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjYzODk5NDk5', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6NDYyMzI3MTI1', 'versionIndex': 94}}, 'version': 'v94'}
+2023-05-22 19:13:33,054 DEBUG   SenderThread:6256 [sender.py:send_request():402] send_request: defer
+2023-05-22 19:13:33,055 INFO    SenderThread:6256 [sender.py:send_request_defer():622] handle sender defer: 9
+2023-05-22 19:13:33,055 INFO    SenderThread:6256 [dir_watcher.py:finish():365] shutting down directory watcher
+2023-05-22 19:13:33,244 INFO    wandb-upload_45:6256 [upload_job.py:push():137] Uploaded file C:\Users\owner\AppData\Local\Temp\tmp9oyadmwuwandb\izne78a6-media/images/test_examples_recon_2_cfc3482dad2a50e3f3a5.png
+2023-05-22 19:13:33,259 INFO    wandb-upload_17:6256 [upload_job.py:push():137] Uploaded file C:\Users\owner\AppData\Local\Temp\tmp9oyadmwuwandb\pjzt5ncw-media/images/unconditional_sampling_2_bac0711e5c8f744eec31.png
+2023-05-22 19:13:33,296 INFO    wandb-upload_43:6256 [upload_job.py:push():137] Uploaded file C:\Users\owner\AppData\Local\Temp\tmp9oyadmwuwandb\qgxyoaiw-media/images/test_examples_recon_2_471406020e9d5fca252f.png
+2023-05-22 19:13:33,300 INFO    wandb-upload_47:6256 [upload_job.py:push():137] Uploaded file C:\Users\owner\AppData\Local\Temp\tmp9oyadmwuwandb\trxi5wwa-media/images/test_examples_recon_2_784f4ff328e9ddce21c8.png
+2023-05-22 19:13:33,309 INFO    wandb-upload_9:6256 [upload_job.py:push():137] Uploaded file C:\Users\owner\AppData\Local\Temp\tmp9oyadmwuwandb\4iz12jkg-media/images/unconditional_sampling_2_df2a23ceefdfb32954fb.png
+2023-05-22 19:13:33,310 INFO    wandb-upload_49:6256 [upload_job.py:push():137] Uploaded file C:\Users\owner\AppData\Local\Temp\tmp9oyadmwuwandb\r3pey8ss-media/images/test_examples_recon_2_6bfa150ca6d624fafa93.png
+2023-05-22 19:13:33,314 INFO    wandb-upload_16:6256 [upload_job.py:push():137] Uploaded file C:\Users\owner\AppData\Local\Temp\tmp9oyadmwuwandb\bki4ztuh-media/images/unconditional_sampling_2_aaf40955851184962713.png
+2023-05-22 19:13:33,599 INFO    SenderThread:6256 [dir_watcher.py:finish():395] scan: C:\Users\owner\Desktop\python_workspace\shaders21k\cvae_training\wandb\run-20230522_190700-j9ga9ggs\files
+2023-05-22 19:13:33,600 INFO    SenderThread:6256 [dir_watcher.py:finish():409] scan save: C:\Users\owner\Desktop\python_workspace\shaders21k\cvae_training\wandb\run-20230522_190700-j9ga9ggs\files\checkpoint_val_loss=-0.6880.pt checkpoint_val_loss=-0.6880.pt
+2023-05-22 19:13:33,601 INFO    SenderThread:6256 [dir_watcher.py:finish():409] scan save: C:\Users\owner\Desktop\python_workspace\shaders21k\cvae_training\wandb\run-20230522_190700-j9ga9ggs\files\config.yaml config.yaml
+2023-05-22 19:13:33,608 INFO    SenderThread:6256 [dir_watcher.py:finish():409] scan save: C:\Users\owner\Desktop\python_workspace\shaders21k\cvae_training\wandb\run-20230522_190700-j9ga9ggs\files\output.log output.log
+2023-05-22 19:13:33,615 INFO    SenderThread:6256 [dir_watcher.py:finish():409] scan save: C:\Users\owner\Desktop\python_workspace\shaders21k\cvae_training\wandb\run-20230522_190700-j9ga9ggs\files\requirements.txt requirements.txt
+2023-05-22 19:13:33,619 INFO    SenderThread:6256 [dir_watcher.py:finish():409] scan save: C:\Users\owner\Desktop\python_workspace\shaders21k\cvae_training\wandb\run-20230522_190700-j9ga9ggs\files\wandb-metadata.json wandb-metadata.json
+2023-05-22 19:13:33,619 INFO    SenderThread:6256 [dir_watcher.py:finish():409] scan save: C:\Users\owner\Desktop\python_workspace\shaders21k\cvae_training\wandb\run-20230522_190700-j9ga9ggs\files\wandb-summary.json wandb-summary.json
+2023-05-22 19:13:33,630 INFO    SenderThread:6256 [dir_watcher.py:finish():409] scan save: C:\Users\owner\Desktop\python_workspace\shaders21k\cvae_training\wandb\run-20230522_190700-j9ga9ggs\files\media\images\examples_gt_1_07a2aa17b5d01821d09a.png media\images\examples_gt_1_07a2aa17b5d01821d09a.png
+2023-05-22 19:13:33,630 INFO    SenderThread:6256 [dir_watcher.py:finish():409] scan save: C:\Users\owner\Desktop\python_workspace\shaders21k\cvae_training\wandb\run-20230522_190700-j9ga9ggs\files\media\images\examples_gt_1_0c9ccd1532183fbe28c3.png media\images\examples_gt_1_0c9ccd1532183fbe28c3.png
+2023-05-22 19:13:33,631 INFO    SenderThread:6256 [dir_watcher.py:finish():409] scan save: C:\Users\owner\Desktop\python_workspace\shaders21k\cvae_training\wandb\run-20230522_190700-j9ga9ggs\files\media\images\examples_gt_1_0e5b4771debd26be65d4.png media\images\examples_gt_1_0e5b4771debd26be65d4.png
+2023-05-22 19:13:33,631 INFO    SenderThread:6256 [dir_watcher.py:finish():409] scan save: C:\Users\owner\Desktop\python_workspace\shaders21k\cvae_training\wandb\run-20230522_190700-j9ga9ggs\files\media\images\examples_gt_1_3e49d015292ba7b4c1f8.png media\images\examples_gt_1_3e49d015292ba7b4c1f8.png
+2023-05-22 19:13:33,631 INFO    SenderThread:6256 [dir_watcher.py:finish():409] scan save: C:\Users\owner\Desktop\python_workspace\shaders21k\cvae_training\wandb\run-20230522_190700-j9ga9ggs\files\media\images\examples_gt_1_4008daf231351cbc7a68.png media\images\examples_gt_1_4008daf231351cbc7a68.png
+2023-05-22 19:13:33,631 INFO    SenderThread:6256 [dir_watcher.py:finish():409] scan save: C:\Users\owner\Desktop\python_workspace\shaders21k\cvae_training\wandb\run-20230522_190700-j9ga9ggs\files\media\images\examples_gt_1_444806e753a185a15e48.png media\images\examples_gt_1_444806e753a185a15e48.png
+2023-05-22 19:13:33,631 INFO    SenderThread:6256 [dir_watcher.py:finish():409] scan save: C:\Users\owner\Desktop\python_workspace\shaders21k\cvae_training\wandb\run-20230522_190700-j9ga9ggs\files\media\images\examples_gt_1_9369cdb75aa9fbd652d2.png media\images\examples_gt_1_9369cdb75aa9fbd652d2.png
+2023-05-22 19:13:33,632 INFO    SenderThread:6256 [dir_watcher.py:finish():409] scan save: C:\Users\owner\Desktop\python_workspace\shaders21k\cvae_training\wandb\run-20230522_190700-j9ga9ggs\files\media\images\examples_gt_1_f49e795274c151dd8328.png media\images\examples_gt_1_f49e795274c151dd8328.png
+2023-05-22 19:13:33,632 INFO    SenderThread:6256 [dir_watcher.py:finish():409] scan save: C:\Users\owner\Desktop\python_workspace\shaders21k\cvae_training\wandb\run-20230522_190700-j9ga9ggs\files\media\images\examples_recon_1_21166b14a223633c8212.png media\images\examples_recon_1_21166b14a223633c8212.png
+2023-05-22 19:13:33,632 INFO    SenderThread:6256 [dir_watcher.py:finish():409] scan save: C:\Users\owner\Desktop\python_workspace\shaders21k\cvae_training\wandb\run-20230522_190700-j9ga9ggs\files\media\images\examples_recon_1_3195da1a55c2db38c2c8.png media\images\examples_recon_1_3195da1a55c2db38c2c8.png
+2023-05-22 19:13:33,632 INFO    SenderThread:6256 [dir_watcher.py:finish():409] scan save: C:\Users\owner\Desktop\python_workspace\shaders21k\cvae_training\wandb\run-20230522_190700-j9ga9ggs\files\media\images\examples_recon_1_31b260d9eea8f661e1f8.png media\images\examples_recon_1_31b260d9eea8f661e1f8.png
+2023-05-22 19:13:33,632 INFO    SenderThread:6256 [dir_watcher.py:finish():409] scan save: C:\Users\owner\Desktop\python_workspace\shaders21k\cvae_training\wandb\run-20230522_190700-j9ga9ggs\files\media\images\examples_recon_1_3fe5c56b968f089c6c46.png media\images\examples_recon_1_3fe5c56b968f089c6c46.png
+2023-05-22 19:13:33,632 INFO    SenderThread:6256 [dir_watcher.py:finish():409] scan save: C:\Users\owner\Desktop\python_workspace\shaders21k\cvae_training\wandb\run-20230522_190700-j9ga9ggs\files\media\images\examples_recon_1_5901ffde6abb7efd5a5d.png media\images\examples_recon_1_5901ffde6abb7efd5a5d.png
+2023-05-22 19:13:33,633 INFO    SenderThread:6256 [dir_watcher.py:finish():409] scan save: C:\Users\owner\Desktop\python_workspace\shaders21k\cvae_training\wandb\run-20230522_190700-j9ga9ggs\files\media\images\examples_recon_1_62098aee67751a9f816d.png media\images\examples_recon_1_62098aee67751a9f816d.png
+2023-05-22 19:13:33,633 INFO    SenderThread:6256 [dir_watcher.py:finish():409] scan save: C:\Users\owner\Desktop\python_workspace\shaders21k\cvae_training\wandb\run-20230522_190700-j9ga9ggs\files\media\images\examples_recon_1_8a389ac884c178d1fffd.png media\images\examples_recon_1_8a389ac884c178d1fffd.png
+2023-05-22 19:13:33,633 INFO    SenderThread:6256 [dir_watcher.py:finish():409] scan save: C:\Users\owner\Desktop\python_workspace\shaders21k\cvae_training\wandb\run-20230522_190700-j9ga9ggs\files\media\images\examples_recon_1_aea909bdc106f420f14a.png media\images\examples_recon_1_aea909bdc106f420f14a.png
+2023-05-22 19:13:33,633 INFO    SenderThread:6256 [dir_watcher.py:finish():409] scan save: C:\Users\owner\Desktop\python_workspace\shaders21k\cvae_training\wandb\run-20230522_190700-j9ga9ggs\files\media\images\test_examples_gt_2_3ceae1e6268b2774a564.png media\images\test_examples_gt_2_3ceae1e6268b2774a564.png
+2023-05-22 19:13:33,634 INFO    SenderThread:6256 [dir_watcher.py:finish():409] scan save: C:\Users\owner\Desktop\python_workspace\shaders21k\cvae_training\wandb\run-20230522_190700-j9ga9ggs\files\media\images\test_examples_gt_2_4ab8fe10d559f2367595.png media\images\test_examples_gt_2_4ab8fe10d559f2367595.png
+2023-05-22 19:13:33,634 INFO    SenderThread:6256 [dir_watcher.py:finish():409] scan save: C:\Users\owner\Desktop\python_workspace\shaders21k\cvae_training\wandb\run-20230522_190700-j9ga9ggs\files\media\images\test_examples_gt_2_4e7c5e3fa2347d809867.png media\images\test_examples_gt_2_4e7c5e3fa2347d809867.png
+2023-05-22 19:13:33,634 INFO    SenderThread:6256 [dir_watcher.py:finish():409] scan save: C:\Users\owner\Desktop\python_workspace\shaders21k\cvae_training\wandb\run-20230522_190700-j9ga9ggs\files\media\images\test_examples_gt_2_5c965e41a1b478ab1214.png media\images\test_examples_gt_2_5c965e41a1b478ab1214.png
+2023-05-22 19:13:33,634 INFO    SenderThread:6256 [dir_watcher.py:finish():409] scan save: C:\Users\owner\Desktop\python_workspace\shaders21k\cvae_training\wandb\run-20230522_190700-j9ga9ggs\files\media\images\test_examples_gt_2_883941fb51c8e5d97d27.png media\images\test_examples_gt_2_883941fb51c8e5d97d27.png
+2023-05-22 19:13:33,634 INFO    SenderThread:6256 [dir_watcher.py:finish():409] scan save: C:\Users\owner\Desktop\python_workspace\shaders21k\cvae_training\wandb\run-20230522_190700-j9ga9ggs\files\media\images\test_examples_gt_2_aca033af5ad7a71b925f.png media\images\test_examples_gt_2_aca033af5ad7a71b925f.png
+2023-05-22 19:13:33,634 INFO    SenderThread:6256 [dir_watcher.py:finish():409] scan save: C:\Users\owner\Desktop\python_workspace\shaders21k\cvae_training\wandb\run-20230522_190700-j9ga9ggs\files\media\images\test_examples_gt_2_bce7f0d155605f0e83d6.png media\images\test_examples_gt_2_bce7f0d155605f0e83d6.png
+2023-05-22 19:13:33,634 INFO    SenderThread:6256 [dir_watcher.py:finish():409] scan save: C:\Users\owner\Desktop\python_workspace\shaders21k\cvae_training\wandb\run-20230522_190700-j9ga9ggs\files\media\images\test_examples_gt_2_fd166d1a84328686fa70.png media\images\test_examples_gt_2_fd166d1a84328686fa70.png
+2023-05-22 19:13:33,635 INFO    SenderThread:6256 [dir_watcher.py:finish():409] scan save: C:\Users\owner\Desktop\python_workspace\shaders21k\cvae_training\wandb\run-20230522_190700-j9ga9ggs\files\media\images\test_examples_recon_2_260e5142eb1eea25b733.png media\images\test_examples_recon_2_260e5142eb1eea25b733.png
+2023-05-22 19:13:33,635 INFO    SenderThread:6256 [dir_watcher.py:finish():409] scan save: C:\Users\owner\Desktop\python_workspace\shaders21k\cvae_training\wandb\run-20230522_190700-j9ga9ggs\files\media\images\test_examples_recon_2_471406020e9d5fca252f.png media\images\test_examples_recon_2_471406020e9d5fca252f.png
+2023-05-22 19:13:33,635 INFO    SenderThread:6256 [dir_watcher.py:finish():409] scan save: C:\Users\owner\Desktop\python_workspace\shaders21k\cvae_training\wandb\run-20230522_190700-j9ga9ggs\files\media\images\test_examples_recon_2_6bfa150ca6d624fafa93.png media\images\test_examples_recon_2_6bfa150ca6d624fafa93.png
+2023-05-22 19:13:33,635 INFO    SenderThread:6256 [dir_watcher.py:finish():409] scan save: C:\Users\owner\Desktop\python_workspace\shaders21k\cvae_training\wandb\run-20230522_190700-j9ga9ggs\files\media\images\test_examples_recon_2_784f4ff328e9ddce21c8.png media\images\test_examples_recon_2_784f4ff328e9ddce21c8.png
+2023-05-22 19:13:33,635 INFO    SenderThread:6256 [dir_watcher.py:finish():409] scan save: C:\Users\owner\Desktop\python_workspace\shaders21k\cvae_training\wandb\run-20230522_190700-j9ga9ggs\files\media\images\test_examples_recon_2_86ba70a5da8b4be4ad49.png media\images\test_examples_recon_2_86ba70a5da8b4be4ad49.png
+2023-05-22 19:13:33,635 INFO    SenderThread:6256 [dir_watcher.py:finish():409] scan save: C:\Users\owner\Desktop\python_workspace\shaders21k\cvae_training\wandb\run-20230522_190700-j9ga9ggs\files\media\images\test_examples_recon_2_aa2b0c62e4a46fd18587.png media\images\test_examples_recon_2_aa2b0c62e4a46fd18587.png
+2023-05-22 19:13:33,636 INFO    SenderThread:6256 [dir_watcher.py:finish():409] scan save: C:\Users\owner\Desktop\python_workspace\shaders21k\cvae_training\wandb\run-20230522_190700-j9ga9ggs\files\media\images\test_examples_recon_2_b18ec0e5d24c5e4e47c0.png media\images\test_examples_recon_2_b18ec0e5d24c5e4e47c0.png
+2023-05-22 19:13:33,636 INFO    SenderThread:6256 [dir_watcher.py:finish():409] scan save: C:\Users\owner\Desktop\python_workspace\shaders21k\cvae_training\wandb\run-20230522_190700-j9ga9ggs\files\media\images\test_examples_recon_2_cfc3482dad2a50e3f3a5.png media\images\test_examples_recon_2_cfc3482dad2a50e3f3a5.png
+2023-05-22 19:13:33,636 INFO    SenderThread:6256 [dir_watcher.py:finish():409] scan save: C:\Users\owner\Desktop\python_workspace\shaders21k\cvae_training\wandb\run-20230522_190700-j9ga9ggs\files\media\images\unconditional_sampling_2_15d3e313bd7929fa6098.png media\images\unconditional_sampling_2_15d3e313bd7929fa6098.png
+2023-05-22 19:13:33,636 INFO    SenderThread:6256 [dir_watcher.py:finish():409] scan save: C:\Users\owner\Desktop\python_workspace\shaders21k\cvae_training\wandb\run-20230522_190700-j9ga9ggs\files\media\images\unconditional_sampling_2_5ed77516418158e0cae8.png media\images\unconditional_sampling_2_5ed77516418158e0cae8.png
+2023-05-22 19:13:33,636 INFO    SenderThread:6256 [dir_watcher.py:finish():409] scan save: C:\Users\owner\Desktop\python_workspace\shaders21k\cvae_training\wandb\run-20230522_190700-j9ga9ggs\files\media\images\unconditional_sampling_2_61cf683d46116e9e7186.png media\images\unconditional_sampling_2_61cf683d46116e9e7186.png
+2023-05-22 19:13:33,636 INFO    SenderThread:6256 [dir_watcher.py:finish():409] scan save: C:\Users\owner\Desktop\python_workspace\shaders21k\cvae_training\wandb\run-20230522_190700-j9ga9ggs\files\media\images\unconditional_sampling_2_83fb8ccb911ab82588a7.png media\images\unconditional_sampling_2_83fb8ccb911ab82588a7.png
+2023-05-22 19:13:33,636 INFO    SenderThread:6256 [dir_watcher.py:finish():409] scan save: C:\Users\owner\Desktop\python_workspace\shaders21k\cvae_training\wandb\run-20230522_190700-j9ga9ggs\files\media\images\unconditional_sampling_2_aaf40955851184962713.png media\images\unconditional_sampling_2_aaf40955851184962713.png
+2023-05-22 19:13:33,637 INFO    SenderThread:6256 [dir_watcher.py:finish():409] scan save: C:\Users\owner\Desktop\python_workspace\shaders21k\cvae_training\wandb\run-20230522_190700-j9ga9ggs\files\media\images\unconditional_sampling_2_bac0711e5c8f744eec31.png media\images\unconditional_sampling_2_bac0711e5c8f744eec31.png
+2023-05-22 19:13:33,637 INFO    SenderThread:6256 [dir_watcher.py:finish():409] scan save: C:\Users\owner\Desktop\python_workspace\shaders21k\cvae_training\wandb\run-20230522_190700-j9ga9ggs\files\media\images\unconditional_sampling_2_cbdf3dec62a0b9dfe094.png media\images\unconditional_sampling_2_cbdf3dec62a0b9dfe094.png
+2023-05-22 19:13:33,637 INFO    SenderThread:6256 [dir_watcher.py:finish():409] scan save: C:\Users\owner\Desktop\python_workspace\shaders21k\cvae_training\wandb\run-20230522_190700-j9ga9ggs\files\media\images\unconditional_sampling_2_df2a23ceefdfb32954fb.png media\images\unconditional_sampling_2_df2a23ceefdfb32954fb.png
+2023-05-22 19:13:33,637 INFO    SenderThread:6256 [dir_watcher.py:finish():409] scan save: C:\Users\owner\Desktop\python_workspace\shaders21k\cvae_training\wandb\run-20230522_190700-j9ga9ggs\files\media\images\val_examples_gt_1_28f3dac63b36533a3f96.png media\images\val_examples_gt_1_28f3dac63b36533a3f96.png
+2023-05-22 19:13:33,637 INFO    SenderThread:6256 [dir_watcher.py:finish():409] scan save: C:\Users\owner\Desktop\python_workspace\shaders21k\cvae_training\wandb\run-20230522_190700-j9ga9ggs\files\media\images\val_examples_gt_1_720cb08865010f1d17ee.png media\images\val_examples_gt_1_720cb08865010f1d17ee.png
+2023-05-22 19:13:33,637 INFO    SenderThread:6256 [dir_watcher.py:finish():409] scan save: C:\Users\owner\Desktop\python_workspace\shaders21k\cvae_training\wandb\run-20230522_190700-j9ga9ggs\files\media\images\val_examples_gt_1_73a5a5dea6a02a578a92.png media\images\val_examples_gt_1_73a5a5dea6a02a578a92.png
+2023-05-22 19:13:33,638 INFO    SenderThread:6256 [dir_watcher.py:finish():409] scan save: C:\Users\owner\Desktop\python_workspace\shaders21k\cvae_training\wandb\run-20230522_190700-j9ga9ggs\files\media\images\val_examples_gt_1_ae9e4085d7670a683720.png media\images\val_examples_gt_1_ae9e4085d7670a683720.png
+2023-05-22 19:13:33,638 INFO    SenderThread:6256 [dir_watcher.py:finish():409] scan save: C:\Users\owner\Desktop\python_workspace\shaders21k\cvae_training\wandb\run-20230522_190700-j9ga9ggs\files\media\images\val_examples_gt_1_af58e9b8f47b6273bf68.png media\images\val_examples_gt_1_af58e9b8f47b6273bf68.png
+2023-05-22 19:13:33,639 INFO    SenderThread:6256 [dir_watcher.py:finish():409] scan save: C:\Users\owner\Desktop\python_workspace\shaders21k\cvae_training\wandb\run-20230522_190700-j9ga9ggs\files\media\images\val_examples_gt_1_b86f6466635759e33314.png media\images\val_examples_gt_1_b86f6466635759e33314.png
+2023-05-22 19:13:33,639 INFO    SenderThread:6256 [dir_watcher.py:finish():409] scan save: C:\Users\owner\Desktop\python_workspace\shaders21k\cvae_training\wandb\run-20230522_190700-j9ga9ggs\files\media\images\val_examples_gt_1_dc0aac0d2cc4671a02a7.png media\images\val_examples_gt_1_dc0aac0d2cc4671a02a7.png
+2023-05-22 19:13:33,639 INFO    SenderThread:6256 [dir_watcher.py:finish():409] scan save: C:\Users\owner\Desktop\python_workspace\shaders21k\cvae_training\wandb\run-20230522_190700-j9ga9ggs\files\media\images\val_examples_gt_1_ec31ff6910f40f8bd715.png media\images\val_examples_gt_1_ec31ff6910f40f8bd715.png
+2023-05-22 19:13:33,639 INFO    SenderThread:6256 [dir_watcher.py:finish():409] scan save: C:\Users\owner\Desktop\python_workspace\shaders21k\cvae_training\wandb\run-20230522_190700-j9ga9ggs\files\media\images\val_examples_recon_1_6bd2d0b5ff9d761fb1bd.png media\images\val_examples_recon_1_6bd2d0b5ff9d761fb1bd.png
+2023-05-22 19:13:33,639 INFO    SenderThread:6256 [dir_watcher.py:finish():409] scan save: C:\Users\owner\Desktop\python_workspace\shaders21k\cvae_training\wandb\run-20230522_190700-j9ga9ggs\files\media\images\val_examples_recon_1_79e539740ff7766cfaff.png media\images\val_examples_recon_1_79e539740ff7766cfaff.png
+2023-05-22 19:13:33,639 INFO    SenderThread:6256 [dir_watcher.py:finish():409] scan save: C:\Users\owner\Desktop\python_workspace\shaders21k\cvae_training\wandb\run-20230522_190700-j9ga9ggs\files\media\images\val_examples_recon_1_7f5d74f2943eff5f4063.png media\images\val_examples_recon_1_7f5d74f2943eff5f4063.png
+2023-05-22 19:13:33,640 INFO    SenderThread:6256 [dir_watcher.py:finish():409] scan save: C:\Users\owner\Desktop\python_workspace\shaders21k\cvae_training\wandb\run-20230522_190700-j9ga9ggs\files\media\images\val_examples_recon_1_8d26ff235f3a717812ca.png media\images\val_examples_recon_1_8d26ff235f3a717812ca.png
+2023-05-22 19:13:33,640 INFO    SenderThread:6256 [dir_watcher.py:finish():409] scan save: C:\Users\owner\Desktop\python_workspace\shaders21k\cvae_training\wandb\run-20230522_190700-j9ga9ggs\files\media\images\val_examples_recon_1_9138a867aa34ffa15e95.png media\images\val_examples_recon_1_9138a867aa34ffa15e95.png
+2023-05-22 19:13:33,640 INFO    SenderThread:6256 [dir_watcher.py:finish():409] scan save: C:\Users\owner\Desktop\python_workspace\shaders21k\cvae_training\wandb\run-20230522_190700-j9ga9ggs\files\media\images\val_examples_recon_1_9ebc0dfa2e7867e8e212.png media\images\val_examples_recon_1_9ebc0dfa2e7867e8e212.png
+2023-05-22 19:13:33,640 INFO    SenderThread:6256 [dir_watcher.py:finish():409] scan save: C:\Users\owner\Desktop\python_workspace\shaders21k\cvae_training\wandb\run-20230522_190700-j9ga9ggs\files\media\images\val_examples_recon_1_aaa516a58275e5b62373.png media\images\val_examples_recon_1_aaa516a58275e5b62373.png
+2023-05-22 19:13:33,640 INFO    SenderThread:6256 [dir_watcher.py:finish():409] scan save: C:\Users\owner\Desktop\python_workspace\shaders21k\cvae_training\wandb\run-20230522_190700-j9ga9ggs\files\media\images\val_examples_recon_1_c0fe7b2a6a4848b7829c.png media\images\val_examples_recon_1_c0fe7b2a6a4848b7829c.png
+2023-05-22 19:13:33,641 INFO    SenderThread:6256 [dir_watcher.py:finish():409] scan save: C:\Users\owner\Desktop\python_workspace\shaders21k\cvae_training\wandb\run-20230522_190700-j9ga9ggs\files\media\videos\video_1_e7532249b8ab713c9a7b.gif media\videos\video_1_e7532249b8ab713c9a7b.gif
+2023-05-22 19:13:33,641 INFO    SenderThread:6256 [dir_watcher.py:finish():409] scan save: C:\Users\owner\Desktop\python_workspace\shaders21k\cvae_training\wandb\run-20230522_190700-j9ga9ggs\files\media\videos\video_2_893ddac1112a6ed874fa.gif media\videos\video_2_893ddac1112a6ed874fa.gif
+2023-05-22 19:13:33,641 INFO    SenderThread:6256 [sender.py:transition_state():626] send defer: 10
+2023-05-22 19:13:33,641 DEBUG   SenderThread:6256 [sender.py:send_request():402] send_request: poll_exit
+2023-05-22 19:13:33,641 DEBUG   HandlerThread:6256 [handler.py:handle_request():144] handle_request: defer
+2023-05-22 19:13:33,643 INFO    HandlerThread:6256 [handler.py:handle_request_defer():170] handle defer: 10
+2023-05-22 19:13:33,643 DEBUG   SenderThread:6256 [sender.py:send_request():402] send_request: defer
+2023-05-22 19:13:33,643 INFO    SenderThread:6256 [sender.py:send_request_defer():622] handle sender defer: 10
+2023-05-22 19:13:33,643 INFO    SenderThread:6256 [file_pusher.py:finish():168] shutting down file pusher
+2023-05-22 19:13:33,845 DEBUG   HandlerThread:6256 [handler.py:handle_request():144] handle_request: poll_exit
+2023-05-22 19:13:33,851 DEBUG   SenderThread:6256 [sender.py:send_request():402] send_request: poll_exit
+2023-05-22 19:13:34,279 INFO    wandb-upload_44:6256 [upload_job.py:push():137] Uploaded file C:\Users\owner\Desktop\python_workspace\shaders21k\cvae_training\wandb\run-20230522_190700-j9ga9ggs\files\config.yaml
+2023-05-22 19:13:34,283 INFO    wandb-upload_25:6256 [upload_job.py:push():137] Uploaded file C:\Users\owner\Desktop\python_workspace\shaders21k\cvae_training\wandb\run-20230522_190700-j9ga9ggs\files\output.log
+2023-05-22 19:13:34,285 INFO    wandb-upload_19:6256 [upload_job.py:push():137] Uploaded file C:\Users\owner\Desktop\python_workspace\shaders21k\cvae_training\wandb\run-20230522_190700-j9ga9ggs\files\requirements.txt
+2023-05-22 19:13:34,322 INFO    wandb-upload_8:6256 [upload_job.py:push():137] Uploaded file C:\Users\owner\Desktop\python_workspace\shaders21k\cvae_training\wandb\run-20230522_190700-j9ga9ggs\files\wandb-summary.json
+2023-05-22 19:13:34,855 DEBUG   HandlerThread:6256 [handler.py:handle_request():144] handle_request: poll_exit
+2023-05-22 19:13:34,856 DEBUG   SenderThread:6256 [sender.py:send_request():402] send_request: poll_exit
+2023-05-22 19:13:35,864 DEBUG   HandlerThread:6256 [handler.py:handle_request():144] handle_request: status_report
+2023-05-22 19:13:35,865 DEBUG   HandlerThread:6256 [handler.py:handle_request():144] handle_request: poll_exit
+2023-05-22 19:13:35,866 DEBUG   SenderThread:6256 [sender.py:send_request():402] send_request: poll_exit
+2023-05-22 19:13:36,866 DEBUG   HandlerThread:6256 [handler.py:handle_request():144] handle_request: poll_exit
+2023-05-22 19:13:36,868 DEBUG   SenderThread:6256 [sender.py:send_request():402] send_request: poll_exit
+2023-05-22 19:13:37,875 DEBUG   HandlerThread:6256 [handler.py:handle_request():144] handle_request: poll_exit
+2023-05-22 19:13:37,876 DEBUG   SenderThread:6256 [sender.py:send_request():402] send_request: poll_exit
+2023-05-22 19:13:38,889 DEBUG   HandlerThread:6256 [handler.py:handle_request():144] handle_request: poll_exit
+2023-05-22 19:13:38,889 DEBUG   SenderThread:6256 [sender.py:send_request():402] send_request: poll_exit
+2023-05-22 19:13:39,890 DEBUG   HandlerThread:6256 [handler.py:handle_request():144] handle_request: poll_exit
+2023-05-22 19:13:39,891 DEBUG   SenderThread:6256 [sender.py:send_request():402] send_request: poll_exit
+2023-05-22 19:13:40,895 DEBUG   HandlerThread:6256 [handler.py:handle_request():144] handle_request: status_report
+2023-05-22 19:13:40,895 DEBUG   HandlerThread:6256 [handler.py:handle_request():144] handle_request: poll_exit
+2023-05-22 19:13:40,897 DEBUG   SenderThread:6256 [sender.py:send_request():402] send_request: poll_exit
+2023-05-22 19:13:41,902 DEBUG   HandlerThread:6256 [handler.py:handle_request():144] handle_request: poll_exit
+2023-05-22 19:13:41,903 DEBUG   SenderThread:6256 [sender.py:send_request():402] send_request: poll_exit
+2023-05-22 19:13:42,915 DEBUG   HandlerThread:6256 [handler.py:handle_request():144] handle_request: poll_exit
+2023-05-22 19:13:42,916 DEBUG   SenderThread:6256 [sender.py:send_request():402] send_request: poll_exit
+2023-05-22 19:13:43,929 DEBUG   HandlerThread:6256 [handler.py:handle_request():144] handle_request: poll_exit
+2023-05-22 19:13:43,930 DEBUG   SenderThread:6256 [sender.py:send_request():402] send_request: poll_exit
+2023-05-22 19:13:44,930 DEBUG   HandlerThread:6256 [handler.py:handle_request():144] handle_request: poll_exit
+2023-05-22 19:13:44,931 DEBUG   SenderThread:6256 [sender.py:send_request():402] send_request: poll_exit
+2023-05-22 19:13:45,889 INFO    wandb-upload_33:6256 [upload_job.py:push():137] Uploaded file C:\Users\owner\AppData\Local\Temp\tmp9oyadmwuwandb\ztp4eqsu-media/videos/video_2_893ddac1112a6ed874fa.gif
+2023-05-22 19:13:45,939 DEBUG   HandlerThread:6256 [handler.py:handle_request():144] handle_request: status_report
+2023-05-22 19:13:45,939 DEBUG   HandlerThread:6256 [handler.py:handle_request():144] handle_request: poll_exit
+2023-05-22 19:13:45,941 DEBUG   SenderThread:6256 [sender.py:send_request():402] send_request: poll_exit
+2023-05-22 19:13:46,953 DEBUG   HandlerThread:6256 [handler.py:handle_request():144] handle_request: poll_exit
+2023-05-22 19:13:46,954 DEBUG   SenderThread:6256 [sender.py:send_request():402] send_request: poll_exit
+2023-05-22 19:13:47,955 DEBUG   HandlerThread:6256 [handler.py:handle_request():144] handle_request: poll_exit
+2023-05-22 19:13:47,956 DEBUG   SenderThread:6256 [sender.py:send_request():402] send_request: poll_exit
+2023-05-22 19:13:48,962 DEBUG   HandlerThread:6256 [handler.py:handle_request():144] handle_request: poll_exit
+2023-05-22 19:13:48,963 DEBUG   SenderThread:6256 [sender.py:send_request():402] send_request: poll_exit
+2023-05-22 19:13:49,977 DEBUG   HandlerThread:6256 [handler.py:handle_request():144] handle_request: poll_exit
+2023-05-22 19:13:49,978 DEBUG   SenderThread:6256 [sender.py:send_request():402] send_request: poll_exit
+2023-05-22 19:13:50,984 DEBUG   HandlerThread:6256 [handler.py:handle_request():144] handle_request: status_report
+2023-05-22 19:13:50,984 DEBUG   HandlerThread:6256 [handler.py:handle_request():144] handle_request: poll_exit
+2023-05-22 19:13:50,985 DEBUG   SenderThread:6256 [sender.py:send_request():402] send_request: poll_exit
+2023-05-22 19:13:51,995 DEBUG   HandlerThread:6256 [handler.py:handle_request():144] handle_request: poll_exit
+2023-05-22 19:13:51,995 DEBUG   SenderThread:6256 [sender.py:send_request():402] send_request: poll_exit
+2023-05-22 19:13:52,999 DEBUG   HandlerThread:6256 [handler.py:handle_request():144] handle_request: poll_exit
+2023-05-22 19:13:53,000 DEBUG   SenderThread:6256 [sender.py:send_request():402] send_request: poll_exit
+2023-05-22 19:13:54,007 DEBUG   HandlerThread:6256 [handler.py:handle_request():144] handle_request: poll_exit
+2023-05-22 19:13:54,008 DEBUG   SenderThread:6256 [sender.py:send_request():402] send_request: poll_exit
+2023-05-22 19:13:55,007 DEBUG   HandlerThread:6256 [handler.py:handle_request():144] handle_request: poll_exit
+2023-05-22 19:13:55,008 DEBUG   SenderThread:6256 [sender.py:send_request():402] send_request: poll_exit
+2023-05-22 19:13:56,022 DEBUG   HandlerThread:6256 [handler.py:handle_request():144] handle_request: status_report
+2023-05-22 19:13:56,023 DEBUG   HandlerThread:6256 [handler.py:handle_request():144] handle_request: poll_exit
+2023-05-22 19:13:56,023 DEBUG   SenderThread:6256 [sender.py:send_request():402] send_request: poll_exit
+2023-05-22 19:13:57,025 DEBUG   HandlerThread:6256 [handler.py:handle_request():144] handle_request: poll_exit
+2023-05-22 19:13:57,026 DEBUG   SenderThread:6256 [sender.py:send_request():402] send_request: poll_exit
+2023-05-22 19:13:58,029 DEBUG   HandlerThread:6256 [handler.py:handle_request():144] handle_request: poll_exit
+2023-05-22 19:13:58,029 DEBUG   SenderThread:6256 [sender.py:send_request():402] send_request: poll_exit
+2023-05-22 19:13:59,041 DEBUG   HandlerThread:6256 [handler.py:handle_request():144] handle_request: poll_exit
+2023-05-22 19:13:59,042 DEBUG   SenderThread:6256 [sender.py:send_request():402] send_request: poll_exit
+2023-05-22 19:14:00,047 DEBUG   HandlerThread:6256 [handler.py:handle_request():144] handle_request: poll_exit
+2023-05-22 19:14:00,048 DEBUG   SenderThread:6256 [sender.py:send_request():402] send_request: poll_exit
+2023-05-22 19:14:01,054 DEBUG   HandlerThread:6256 [handler.py:handle_request():144] handle_request: status_report
+2023-05-22 19:14:01,054 DEBUG   HandlerThread:6256 [handler.py:handle_request():144] handle_request: poll_exit
+2023-05-22 19:14:01,055 DEBUG   SenderThread:6256 [sender.py:send_request():402] send_request: poll_exit
+2023-05-22 19:14:02,059 DEBUG   HandlerThread:6256 [handler.py:handle_request():144] handle_request: poll_exit
+2023-05-22 19:14:02,060 DEBUG   SenderThread:6256 [sender.py:send_request():402] send_request: poll_exit
+2023-05-22 19:14:03,072 DEBUG   HandlerThread:6256 [handler.py:handle_request():144] handle_request: poll_exit
+2023-05-22 19:14:03,072 DEBUG   SenderThread:6256 [sender.py:send_request():402] send_request: poll_exit
+2023-05-22 19:14:04,084 DEBUG   HandlerThread:6256 [handler.py:handle_request():144] handle_request: poll_exit
+2023-05-22 19:14:04,085 DEBUG   SenderThread:6256 [sender.py:send_request():402] send_request: poll_exit
+2023-05-22 19:14:05,092 DEBUG   HandlerThread:6256 [handler.py:handle_request():144] handle_request: poll_exit
+2023-05-22 19:14:05,093 DEBUG   SenderThread:6256 [sender.py:send_request():402] send_request: poll_exit
+2023-05-22 19:14:06,098 DEBUG   HandlerThread:6256 [handler.py:handle_request():144] handle_request: status_report
+2023-05-22 19:14:06,099 DEBUG   HandlerThread:6256 [handler.py:handle_request():144] handle_request: poll_exit
+2023-05-22 19:14:06,099 DEBUG   SenderThread:6256 [sender.py:send_request():402] send_request: poll_exit
+2023-05-22 19:14:07,103 DEBUG   HandlerThread:6256 [handler.py:handle_request():144] handle_request: poll_exit
+2023-05-22 19:14:07,104 DEBUG   SenderThread:6256 [sender.py:send_request():402] send_request: poll_exit
+2023-05-22 19:14:08,108 DEBUG   HandlerThread:6256 [handler.py:handle_request():144] handle_request: poll_exit
+2023-05-22 19:14:08,109 DEBUG   SenderThread:6256 [sender.py:send_request():402] send_request: poll_exit
+2023-05-22 19:14:09,122 DEBUG   HandlerThread:6256 [handler.py:handle_request():144] handle_request: poll_exit
+2023-05-22 19:14:09,122 DEBUG   SenderThread:6256 [sender.py:send_request():402] send_request: poll_exit
+2023-05-22 19:14:10,126 DEBUG   HandlerThread:6256 [handler.py:handle_request():144] handle_request: poll_exit
+2023-05-22 19:14:10,126 DEBUG   SenderThread:6256 [sender.py:send_request():402] send_request: poll_exit
+2023-05-22 19:14:11,127 DEBUG   HandlerThread:6256 [handler.py:handle_request():144] handle_request: poll_exit
+2023-05-22 19:14:11,127 DEBUG   SenderThread:6256 [sender.py:send_request():402] send_request: poll_exit
+2023-05-22 19:14:11,128 DEBUG   HandlerThread:6256 [handler.py:handle_request():144] handle_request: status_report
+2023-05-22 19:14:12,133 DEBUG   HandlerThread:6256 [handler.py:handle_request():144] handle_request: poll_exit
+2023-05-22 19:14:12,134 DEBUG   SenderThread:6256 [sender.py:send_request():402] send_request: poll_exit
+2023-05-22 19:14:13,139 DEBUG   HandlerThread:6256 [handler.py:handle_request():144] handle_request: poll_exit
+2023-05-22 19:14:13,140 DEBUG   SenderThread:6256 [sender.py:send_request():402] send_request: poll_exit
+2023-05-22 19:14:14,141 DEBUG   HandlerThread:6256 [handler.py:handle_request():144] handle_request: poll_exit
+2023-05-22 19:14:14,142 DEBUG   SenderThread:6256 [sender.py:send_request():402] send_request: poll_exit
+2023-05-22 19:14:15,153 DEBUG   HandlerThread:6256 [handler.py:handle_request():144] handle_request: poll_exit
+2023-05-22 19:14:15,153 DEBUG   SenderThread:6256 [sender.py:send_request():402] send_request: poll_exit
+2023-05-22 19:14:16,159 DEBUG   HandlerThread:6256 [handler.py:handle_request():144] handle_request: status_report
+2023-05-22 19:14:16,159 DEBUG   HandlerThread:6256 [handler.py:handle_request():144] handle_request: poll_exit
+2023-05-22 19:14:16,160 DEBUG   SenderThread:6256 [sender.py:send_request():402] send_request: poll_exit
+2023-05-22 19:14:17,170 DEBUG   HandlerThread:6256 [handler.py:handle_request():144] handle_request: poll_exit
+2023-05-22 19:14:17,170 DEBUG   SenderThread:6256 [sender.py:send_request():402] send_request: poll_exit
+2023-05-22 19:14:18,183 DEBUG   HandlerThread:6256 [handler.py:handle_request():144] handle_request: poll_exit
+2023-05-22 19:14:18,184 DEBUG   SenderThread:6256 [sender.py:send_request():402] send_request: poll_exit
+2023-05-22 19:14:19,235 DEBUG   HandlerThread:6256 [handler.py:handle_request():144] handle_request: poll_exit
+2023-05-22 19:14:19,235 DEBUG   SenderThread:6256 [sender.py:send_request():402] send_request: poll_exit
+2023-05-22 19:14:20,248 DEBUG   HandlerThread:6256 [handler.py:handle_request():144] handle_request: poll_exit
+2023-05-22 19:14:20,248 DEBUG   SenderThread:6256 [sender.py:send_request():402] send_request: poll_exit
+2023-05-22 19:14:21,269 DEBUG   HandlerThread:6256 [handler.py:handle_request():144] handle_request: status_report
+2023-05-22 19:14:21,274 DEBUG   HandlerThread:6256 [handler.py:handle_request():144] handle_request: poll_exit
+2023-05-22 19:14:21,274 DEBUG   SenderThread:6256 [sender.py:send_request():402] send_request: poll_exit
+2023-05-22 19:14:22,292 DEBUG   HandlerThread:6256 [handler.py:handle_request():144] handle_request: poll_exit
+2023-05-22 19:14:22,293 DEBUG   SenderThread:6256 [sender.py:send_request():402] send_request: poll_exit
+2023-05-22 19:14:23,302 DEBUG   HandlerThread:6256 [handler.py:handle_request():144] handle_request: poll_exit
+2023-05-22 19:14:23,304 DEBUG   SenderThread:6256 [sender.py:send_request():402] send_request: poll_exit
+2023-05-22 19:14:24,305 DEBUG   HandlerThread:6256 [handler.py:handle_request():144] handle_request: poll_exit
+2023-05-22 19:14:24,306 DEBUG   SenderThread:6256 [sender.py:send_request():402] send_request: poll_exit
+2023-05-22 19:14:24,644 INFO    wandb-upload_20:6256 [upload_job.py:push():137] Uploaded file C:\Users\owner\Desktop\python_workspace\shaders21k\cvae_training\wandb\run-20230522_190700-j9ga9ggs\files\checkpoint_val_loss=-0.6880.pt
+2023-05-22 19:14:24,855 INFO    Thread-15 :6256 [sender.py:transition_state():626] send defer: 11
+2023-05-22 19:14:24,855 DEBUG   HandlerThread:6256 [handler.py:handle_request():144] handle_request: defer
+2023-05-22 19:14:24,855 INFO    HandlerThread:6256 [handler.py:handle_request_defer():170] handle defer: 11
+2023-05-22 19:14:24,856 DEBUG   SenderThread:6256 [sender.py:send_request():402] send_request: defer
+2023-05-22 19:14:24,856 INFO    SenderThread:6256 [sender.py:send_request_defer():622] handle sender defer: 11
+2023-05-22 19:14:24,856 INFO    SenderThread:6256 [file_pusher.py:join():173] waiting for file pusher
+2023-05-22 19:14:24,857 INFO    SenderThread:6256 [sender.py:transition_state():626] send defer: 12
+2023-05-22 19:14:24,857 DEBUG   HandlerThread:6256 [handler.py:handle_request():144] handle_request: defer
+2023-05-22 19:14:24,858 INFO    HandlerThread:6256 [handler.py:handle_request_defer():170] handle defer: 12
+2023-05-22 19:14:24,858 DEBUG   SenderThread:6256 [sender.py:send_request():402] send_request: defer
+2023-05-22 19:14:24,858 INFO    SenderThread:6256 [sender.py:send_request_defer():622] handle sender defer: 12
+2023-05-22 19:14:25,232 INFO    SenderThread:6256 [sender.py:transition_state():626] send defer: 13
+2023-05-22 19:14:25,233 DEBUG   HandlerThread:6256 [handler.py:handle_request():144] handle_request: defer
+2023-05-22 19:14:25,233 INFO    HandlerThread:6256 [handler.py:handle_request_defer():170] handle defer: 13
+2023-05-22 19:14:25,233 DEBUG   SenderThread:6256 [sender.py:send_request():402] send_request: defer
+2023-05-22 19:14:25,233 INFO    SenderThread:6256 [sender.py:send_request_defer():622] handle sender defer: 13
+2023-05-22 19:14:25,234 INFO    SenderThread:6256 [sender.py:transition_state():626] send defer: 14
+2023-05-22 19:14:25,234 DEBUG   HandlerThread:6256 [handler.py:handle_request():144] handle_request: defer
+2023-05-22 19:14:25,235 DEBUG   SenderThread:6256 [sender.py:send():375] send: final
+2023-05-22 19:14:25,235 INFO    HandlerThread:6256 [handler.py:handle_request_defer():170] handle defer: 14
+2023-05-22 19:14:25,235 DEBUG   SenderThread:6256 [sender.py:send():375] send: footer
+2023-05-22 19:14:25,235 DEBUG   SenderThread:6256 [sender.py:send_request():402] send_request: defer
+2023-05-22 19:14:25,235 INFO    SenderThread:6256 [sender.py:send_request_defer():622] handle sender defer: 14
+2023-05-22 19:14:25,236 DEBUG   HandlerThread:6256 [handler.py:handle_request():144] handle_request: poll_exit
+2023-05-22 19:14:25,237 DEBUG   HandlerThread:6256 [handler.py:handle_request():144] handle_request: server_info
+2023-05-22 19:14:25,237 DEBUG   HandlerThread:6256 [handler.py:handle_request():144] handle_request: get_summary
+2023-05-22 19:14:25,237 DEBUG   SenderThread:6256 [sender.py:send_request():402] send_request: poll_exit
+2023-05-22 19:14:25,238 DEBUG   HandlerThread:6256 [handler.py:handle_request():144] handle_request: sampled_history
+2023-05-22 19:14:25,238 DEBUG   SenderThread:6256 [sender.py:send_request():402] send_request: server_info
+2023-05-22 19:14:25,528 DEBUG   HandlerThread:6256 [handler.py:handle_request():144] handle_request: shutdown
+2023-05-22 19:14:25,528 INFO    HandlerThread:6256 [handler.py:finish():845] shutting down handler
+2023-05-22 19:14:26,240 INFO    WriterThread:6256 [datastore.py:close():298] close: C:\Users\owner\Desktop\python_workspace\shaders21k\cvae_training\wandb\run-20230522_190700-j9ga9ggs\run-j9ga9ggs.wandb
+2023-05-22 19:14:26,540 INFO    SenderThread:6256 [sender.py:finish():1550] shutting down sender
+2023-05-22 19:14:26,540 INFO    SenderThread:6256 [file_pusher.py:finish():168] shutting down file pusher
+2023-05-22 19:14:26,540 INFO    SenderThread:6256 [file_pusher.py:join():173] waiting for file pusher
